@@ -89,7 +89,7 @@ func init() {
 	b := file.CheckNotExist("config/serve.ini")
 	fmt.Println(b)
 	if b {
-		fmt.Println("开始创建文件")
+
 		err := file.MkAll("config", "serve.ini")
 		if err != nil {
 			log.Fatalf("创建配置文件失败")
@@ -151,7 +151,7 @@ func init() {
 
 		// sys, _ := cfg.NewSection("sys")
 		// sys.StrictMapTo(db.Http)
-		fmt.Println("初始化配置文件结束")
+
 		cfg.SaveTo("config/serve.ini")
 	}
 	return

@@ -6,6 +6,7 @@ import (
 	"log"
 	"net/http"
 	"newe-serve/common/db"
+	"newe-serve/common/nelog"
 	"newe-serve/common/redis"
 	"newe-serve/common/router"
 	"newe-serve/common/setting"
@@ -26,7 +27,9 @@ var (
 )
 
 func main() {
+
 	setting.SetUp()
+	nelog.SetUp()
 	redis.Setup()
 	db.Setup()
 	webserve()

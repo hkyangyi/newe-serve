@@ -3,6 +3,7 @@ package router
 import (
 	"fmt"
 	"net/http"
+	"newe-serve/app/routers"
 	"newe-serve/common/nelog"
 	"newe-serve/common/setting"
 	"strings"
@@ -39,6 +40,7 @@ func InitRouter() *gin.Engine {
 	r.StaticFS("/upload/images", http.Dir(setting.Imgcfg.ImageSavePath)) //文件目录
 
 	r.Use(Cors())
+	routers.Router(r)
 
 	//r.LoadHTMLGlob("template/**/*")
 	// //-------------API文档----------------
@@ -56,8 +58,7 @@ func Cors() gin.HandlerFunc {
 		headerKeys = append(headerKeys, "Token")
 		headerKeys = append(headerKeys, "AccSn")
 		headerKeys = append(headerKeys, "Content-Type")
-		for k, v := range c.Request.Header {
-			fmt.Println(v)
+		for k, _ := range c.Request.Header {
 			headerKeys = append(headerKeys, k)
 		}
 		headerStr := strings.Join(headerKeys, ", ")

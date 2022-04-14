@@ -25,31 +25,33 @@ var (
 func SetUp() {
 	LOGTIME = time.Now().Format("20060102")
 	FILENAME := fmt.Sprintf("%s.%s", time.Now().Format("20060102"), "log")
-	tracepath := setting.SYS.RuntimeRootPath + "trace/" + time.Now().Format("200601")
+	file.IsNotExistMkDir(setting.SYS.RuntimeRootPath)
+
+	tracepath := setting.SYS.RuntimeRootPath + "/trace/" + time.Now().Format("200601")
 	if err := file.IsNotExistMkDir(tracepath); err != nil {
 		fmt.Println("日志创建失败")
 	}
 	TRACE = fileLogger.NewSizeLogger(tracepath, FILENAME, "-", 10, 2, fileLogger.MB, 300, 5000)
 
-	infopath := setting.SYS.RuntimeRootPath + "info/" + time.Now().Format("200601")
+	infopath := setting.SYS.RuntimeRootPath + "/info/" + time.Now().Format("200601")
 	if err := file.IsNotExistMkDir(infopath); err != nil {
 		fmt.Println("日志创建失败")
 	}
 	INFO = fileLogger.NewSizeLogger(infopath, FILENAME, "-", 10, 2, fileLogger.MB, 300, 5000)
 
-	warnpath := setting.SYS.RuntimeRootPath + "warn/" + time.Now().Format("200601")
+	warnpath := setting.SYS.RuntimeRootPath + "/warn/" + time.Now().Format("200601")
 	if err := file.IsNotExistMkDir(warnpath); err != nil {
 		fmt.Println("日志创建失败")
 	}
 	WARN = fileLogger.NewSizeLogger(warnpath, FILENAME, "-", 10, 2, fileLogger.MB, 300, 5000)
 
-	errorpath := setting.SYS.RuntimeRootPath + "error/" + time.Now().Format("200601")
+	errorpath := setting.SYS.RuntimeRootPath + "/error/" + time.Now().Format("200601")
 	if err := file.IsNotExistMkDir(errorpath); err != nil {
 		fmt.Println("日志创建失败")
 	}
 	ERROR = fileLogger.NewSizeLogger(errorpath, FILENAME, "-", 10, 2, fileLogger.MB, 300, 5000)
 
-	cronpath := setting.SYS.RuntimeRootPath + "cron/" + time.Now().Format("200601")
+	cronpath := setting.SYS.RuntimeRootPath + "/cron/" + time.Now().Format("200601")
 	if err := file.IsNotExistMkDir(cronpath); err != nil {
 		fmt.Println("日志创建失败")
 	}
@@ -61,6 +63,9 @@ func SetUp() {
 	ERROR.SetPrefix("[ERROR] ")
 	CRON.SetPrefix("[CRON] ")
 	WG = new(sync.WaitGroup)
+	defer func() {
+		fmt.Println("日志OVER")
+	}()
 
 }
 
@@ -121,31 +126,31 @@ func setnew() {
 	ERROR.Close()
 	LOGTIME = time.Now().Format("20060102")
 	FILENAME = fmt.Sprintf("%s.%s", time.Now().Format("20060102"), "log")
-	tracepath := setting.SYS.RuntimeRootPath + "trace/" + time.Now().Format("200601")
+	tracepath := setting.SYS.RuntimeRootPath + "/trace/" + time.Now().Format("200601")
 	if err := file.IsNotExistMkDir(tracepath); err != nil {
 		fmt.Println("日志创建失败")
 	}
 	TRACE = fileLogger.NewSizeLogger(tracepath, FILENAME, "-", 10, 2, fileLogger.MB, 300, 5000)
 
-	infopath := setting.SYS.RuntimeRootPath + "info/" + time.Now().Format("200601")
+	infopath := setting.SYS.RuntimeRootPath + "/info/" + time.Now().Format("200601")
 	if err := file.IsNotExistMkDir(infopath); err != nil {
 		fmt.Println("日志创建失败")
 	}
 	INFO = fileLogger.NewSizeLogger(infopath, FILENAME, "-", 10, 2, fileLogger.MB, 300, 5000)
 
-	warnpath := setting.SYS.RuntimeRootPath + "warn/" + time.Now().Format("200601")
+	warnpath := setting.SYS.RuntimeRootPath + "/warn/" + time.Now().Format("200601")
 	if err := file.IsNotExistMkDir(warnpath); err != nil {
 		fmt.Println("日志创建失败")
 	}
 	WARN = fileLogger.NewSizeLogger(warnpath, FILENAME, "-", 10, 2, fileLogger.MB, 300, 5000)
 
-	errorpath := setting.SYS.RuntimeRootPath + "error/" + time.Now().Format("200601")
+	errorpath := setting.SYS.RuntimeRootPath + "/error/" + time.Now().Format("200601")
 	if err := file.IsNotExistMkDir(errorpath); err != nil {
 		fmt.Println("日志创建失败")
 	}
 	ERROR = fileLogger.NewSizeLogger(errorpath, FILENAME, "-", 10, 2, fileLogger.MB, 300, 5000)
 
-	cronpath := setting.SYS.RuntimeRootPath + "cron/" + time.Now().Format("200601")
+	cronpath := setting.SYS.RuntimeRootPath + "/cron/" + time.Now().Format("200601")
 	if err := file.IsNotExistMkDir(cronpath); err != nil {
 		fmt.Println("日志创建失败")
 	}
