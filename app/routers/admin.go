@@ -22,4 +22,9 @@ func NeweSys(r *gin.RouterGroup) {
 	r.GET("megetlist", sys.MenuGetList)
 	r.PUT("meedit", sys.MenuEdit)
 	r.DELETE("medel", sys.MenuDel)
+	//组织结构
+	r.POST("deptadd", sys.DepartAdd)
+	r.PUT("deptedit", sys.DepartEdit)
+	r.DELETE("deptdel", sys.DepartDel)
+	r.GET("deptgetlist", sys.DepartGetList)
 }

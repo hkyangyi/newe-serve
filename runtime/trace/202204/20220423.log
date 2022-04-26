@@ -1,0 +1,600 @@
+[TRACE] 2022/04/23 00:03:08.741740 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:03:08 CST] "GET /api/admin/getUserInfo?_t=1650643388728 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:03:08.742338 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:03:08.742338 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:03:08.763255 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:03:08 CST] "GET /api/admin/getPermCode?_t=1650643388757 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:03:08.763871 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:03:08.763871 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:03:08.764982 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[1.189ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:03:08.764982 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:03:08 CST] "GET /api/admin/getMenuList?_t=1650643388757 HTTP/1.1 200 1.1894ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:03:08.764982 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:03:08.764982 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:03:09.888368 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysDepart.go:45
+[0.560ms] [rows:7] SELECT * FROM `sys_depart` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:03:09.888368 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:03:09 CST] "GET /api/admin/sys/deptgetlist?_t=1650643389809 HTTP/1.1 200 560.5µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:03:09.888896 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:03:09.888903 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:03:12.876259 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[0.513ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:03:12.876670 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:03:12 CST] "GET /api/admin/sys/megetlist?_t=1650643392856 HTTP/1.1 200 924.3µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:03:12.876670 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:03:12.876670 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:04:49.487246 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:04:49 CST] "GET /api/admin/getUserInfo?_t=1650643489481 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:04:49.487246 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:04:49.487246 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:04:49.528435 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:04:49 CST] "GET /api/admin/getPermCode?_t=1650643489521 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:04:49.528435 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:04:49.528435 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:04:49.529433 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.998ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:04:49.529433 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:04:49 CST] "GET /api/admin/getMenuList?_t=1650643489521 HTTP/1.1 200 998µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:04:49.529433 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:04:49.529433 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:04:50.664198 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysDepart.go:45
+[0.526ms] [rows:7] SELECT * FROM `sys_depart` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:04:50.664198 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:04:50 CST] "GET /api/admin/sys/deptgetlist?_t=1650643490577 HTTP/1.1 200 1.0425ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:04:50.664198 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:04:50.664198 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:04:52.722687 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[0.512ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:04:52.723140 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:04:52 CST] "GET /api/admin/sys/megetlist?_t=1650643492704 HTTP/1.1 200 966.4µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:04:52.723140 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:04:52.723140 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:08:08.738675 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 00:08:52.295768 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:08:52 CST] "GET /api/admin/getUserInfo?_t=1650643732288 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:08:52.295768 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:08:52.295768 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:08:52.315938 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:08:52 CST] "GET /api/admin/getPermCode?_t=1650643732310 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:08:52.315938 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:08:52.315938 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:08:52.316969 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[1.031ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:08:52.316969 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:08:52 CST] "GET /api/admin/getMenuList?_t=1650643732310 HTTP/1.1 200 1.0311ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:08:52.316969 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:08:52.316969 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:08:52.858938 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysDepart.go:45
+[1.039ms] [rows:7] SELECT * FROM `sys_depart` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:08:52.859480 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:08:52 CST] "GET /api/admin/sys/deptgetlist?_t=1650643732770 HTTP/1.1 200 1.5806ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:08:52.859480 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:08:52.859480 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:08:56.647965 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[0.536ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:08:56.647965 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:08:56 CST] "GET /api/admin/sys/megetlist?_t=1650643736628 HTTP/1.1 200 535.9µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:08:56.647965 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:08:56.647965 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:09:02.769096 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:09:02 CST] "GET /api/admin/getUserInfo?_t=1650643742750 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:09:02.769096 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:09:02.769096 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:09:02.788788 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:09:02 CST] "GET /api/admin/getPermCode?_t=1650643742784 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:09:02.788788 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:09:02.788788 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:09:02.788788 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.000ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:09:02.789791 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:09:02 CST] "GET /api/admin/getMenuList?_t=1650643742784 HTTP/1.1 200 1.0028ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:09:02.789791 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:09:02.789791 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:09:03.494545 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysDepart.go:45
+[0.511ms] [rows:7] SELECT * FROM `sys_depart` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:09:03.495039 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:09:03 CST] "GET /api/admin/sys/deptgetlist?_t=1650643743413 HTTP/1.1 200 1.0053ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:09:03.495039 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:09:03.495039 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:11:16.330842 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysDepart.go:45
+[0.996ms] [rows:7] SELECT * FROM `sys_depart` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:11:16.330842 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:11:16 CST] "GET /api/admin/sys/deptgetlist?_t=1650643876266 HTTP/1.1 200 996.3µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:11:16.330842 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:11:16.330842 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:11:18.454479 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[0.514ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:11:18.455101 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:11:18 CST] "GET /api/admin/sys/megetlist?_t=1650643878433 HTTP/1.1 200 1.1368ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:11:18.455101 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:11:18.455101 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:11:21.815628 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:11:21 CST] "GET /api/admin/getUserInfo?_t=1650643881805 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:11:21.816141 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:11:21.817485 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:11:21.837130 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:11:21 CST] "GET /api/admin/getPermCode?_t=1650643881829 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:11:21.837130 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:11:21.837130 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:11:21.839809 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.519ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:11:21.839809 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:11:21 CST] "GET /api/admin/getMenuList?_t=1650643881830 HTTP/1.1 200 519.2µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:11:21.839809 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:11:21.839809 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:11:23.241766 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysDepart.go:45
+[0.518ms] [rows:7] SELECT * FROM `sys_depart` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:11:23.241766 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:11:23 CST] "GET /api/admin/sys/deptgetlist?_t=1650643883163 HTTP/1.1 200 518.1µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:11:23.241766 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:11:23.241766 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:11:48.446911 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:11:48 CST] "GET /api/admin/getUserInfo?_t=1650643908424 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:11:48.446911 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:11:48.446911 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:11:48.470863 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:11:48 CST] "GET /api/admin/getPermCode?_t=1650643908462 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:11:48.470863 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:11:48.470863 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:11:48.471864 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.000ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:11:48.471864 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:11:48 CST] "GET /api/admin/getMenuList?_t=1650643908463 HTTP/1.1 200 1.0005ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:11:48.471864 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:11:48.472858 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:11:49.735529 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysDepart.go:45
+[0.512ms] [rows:7] SELECT * FROM `sys_depart` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:11:49.735866 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:11:49 CST] "GET /api/admin/sys/deptgetlist?_t=1650643909652 HTTP/1.1 200 850µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:11:49.735866 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:11:49.735866 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:12:19.541560 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:12:19 CST] "GET /api/admin/getUserInfo?_t=1650643939533 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:12:19.541560 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:12:19.541560 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:12:19.573986 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:12:19 CST] "GET /api/admin/getPermCode?_t=1650643939563 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:12:19.573986 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:12:19.573986 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:12:19.575977 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.993ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:12:19.575977 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:12:19 CST] "GET /api/admin/getMenuList?_t=1650643939564 HTTP/1.1 200 1.9907ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:12:19.575977 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:12:19.575977 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:12:20.787928 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysDepart.go:45
+[0.513ms] [rows:7] SELECT * FROM `sys_depart` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:12:20.788154 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:12:20 CST] "GET /api/admin/sys/deptgetlist?_t=1650643940712 HTTP/1.1 200 739.2µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:12:20.788154 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:12:20.788154 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:12:52.005642 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:12:52 CST] "GET /api/admin/getUserInfo?_t=1650643971999 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:12:52.005642 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:12:52.005642 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:12:52.021575 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:12:52 CST] "GET /api/admin/getPermCode?_t=1650643972017 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:12:52.021575 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:12:52.021575 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:12:52.022833 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.562ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:12:52.023842 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:12:52 CST] "GET /api/admin/getMenuList?_t=1650643972017 HTTP/1.1 200 2.2671ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:12:52.023842 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:12:52.023842 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:12:53.147746 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysDepart.go:45
+[0.532ms] [rows:7] SELECT * FROM `sys_depart` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:12:53.148254 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:12:53 CST] "GET /api/admin/sys/deptgetlist?_t=1650643973070 HTTP/1.1 200 1.0403ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:12:53.148254 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:12:53.148254 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:12:55.959116 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[0.869ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:12:55.959687 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:12:55 CST] "GET /api/admin/sys/megetlist?_t=1650643975938 HTTP/1.1 200 1.4395ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:12:55.959687 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:12:55.959687 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:13:08.740992 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 00:13:10.826546 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:13:10 CST] "GET /api/admin/getUserInfo?_t=1650643990817 HTTP/1.1 200 596.9µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:13:10.826546 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:13:10.826546 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:13:10.846045 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:13:10 CST] "GET /api/admin/getPermCode?_t=1650643990838 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:13:10.846045 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:13:10.846045 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:13:10.847129 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[1.084ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:13:10.847129 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:13:10 CST] "GET /api/admin/getMenuList?_t=1650643990839 HTTP/1.1 200 1.0837ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:13:10.847129 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:13:10.847129 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:13:11.914110 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysDepart.go:45
+[1.995ms] [rows:7] SELECT * FROM `sys_depart` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:13:11.914110 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:13:11 CST] "GET /api/admin/sys/deptgetlist?_t=1650643991837 HTTP/1.1 200 1.9951ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:13:11.914110 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:13:11.914110 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:13:15.459124 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[0.550ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:13:15.459124 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:13:15 CST] "GET /api/admin/sys/megetlist?_t=1650643995439 HTTP/1.1 200 1.0646ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:13:15.459124 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:13:15.459124 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:18:08.750274 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 00:20:23.766939 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:20:23 CST] "GET /api/admin/getUserInfo?_t=1650644423761 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:20:23.766939 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:20:23.767443 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:20:23.785116 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:20:23 CST] "GET /api/admin/getPermCode?_t=1650644423779 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:20:23.785176 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:20:23.785176 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:20:23.785687 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.511ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:20:23.785687 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:20:23 CST] "GET /api/admin/getMenuList?_t=1650644423779 HTTP/1.1 200 510.9µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:20:23.785687 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:20:23.785687 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:20:25.115952 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysDepart.go:45
+[0.511ms] [rows:7] SELECT * FROM `sys_depart` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:20:25.116265 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:20:25 CST] "GET /api/admin/sys/deptgetlist?_t=1650644425040 HTTP/1.1 200 824.1µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:20:25.116265 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:20:25.116265 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:20:34.673239 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[1.543ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:20:34.673336 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:20:34 CST] "GET /api/admin/sys/megetlist?_t=1650644434652 HTTP/1.1 200 1.6403ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:20:34.673336 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:20:34.673336 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:20:47.388636 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysDepart.go:45
+[0.992ms] [rows:7] SELECT * FROM `sys_depart` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:20:47.388636 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:20:47 CST] "GET /api/admin/sys/deptgetlist?_t=1650644447342 HTTP/1.1 200 991.8µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:20:47.388636 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:20:47.388636 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:20:50.981864 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[0.513ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:20:50.982247 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:20:50 CST] "GET /api/admin/sys/megetlist?_t=1650644450963 HTTP/1.1 200 896.4µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:20:50.982247 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:20:50.982247 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:21:19.791224 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:21:19 CST] "GET /api/admin/getUserInfo?_t=1650644479785 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:21:19.791224 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:21:19.791224 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:21:19.813172 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:21:19 CST] "GET /api/admin/getPermCode?_t=1650644479804 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:21:19.813172 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:21:19.813172 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:21:19.813752 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.581ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:21:19.813752 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:21:19 CST] "GET /api/admin/getMenuList?_t=1650644479805 HTTP/1.1 200 580.5µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:21:19.814265 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:21:19.814265 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:21:20.971397 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysDepart.go:45
+[1.018ms] [rows:7] SELECT * FROM `sys_depart` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:21:20.971907 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:21:20 CST] "GET /api/admin/sys/deptgetlist?_t=1650644480891 HTTP/1.1 200 1.5284ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:21:20.971907 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:21:20.971907 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:21:23.326925 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[0.519ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:21:23.327252 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:21:23 CST] "GET /api/admin/sys/megetlist?_t=1650644483306 HTTP/1.1 200 845.9µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:21:23.327252 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:21:23.327252 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:22:27.108754 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:22:27 CST] "GET /api/admin/getUserInfo?_t=1650644547100 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:22:27.108754 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:22:27.108754 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:22:27.149089 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:22:27 CST] "GET /api/admin/getPermCode?_t=1650644547143 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:22:27.149089 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:22:27.149089 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:22:27.154122 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[5.033ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:22:27.154122 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:22:27 CST] "GET /api/admin/getMenuList?_t=1650644547143 HTTP/1.1 200 5.0332ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:22:27.154122 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:22:27.154122 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:22:28.294774 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysDepart.go:45
+[0.999ms] [rows:7] SELECT * FROM `sys_depart` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:22:28.294774 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:22:28 CST] "GET /api/admin/sys/deptgetlist?_t=1650644548219 HTTP/1.1 200 998.8µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:22:28.294774 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:22:28.294774 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:22:30.446166 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[1.263ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:22:30.446606 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:22:30 CST] "GET /api/admin/sys/megetlist?_t=1650644550425 HTTP/1.1 200 1.7031ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:22:30.446606 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:22:30.446606 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:23:08.752808 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 00:23:17.584320 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:23:17 CST] "GET /api/admin/getUserInfo?_t=1650644597575 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:23:17.584320 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:23:17.584320 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:23:17.602368 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:23:17 CST] "GET /api/admin/getPermCode?_t=1650644597597 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:23:17.602368 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:23:17.602368 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:23:17.603445 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.544ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:23:17.603445 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:23:17 CST] "GET /api/admin/getMenuList?_t=1650644597597 HTTP/1.1 200 544.4µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:23:17.603445 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:23:17.603445 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:23:18.783008 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysDepart.go:45
+[0.523ms] [rows:7] SELECT * FROM `sys_depart` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:23:18.783258 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:23:18 CST] "GET /api/admin/sys/deptgetlist?_t=1650644598701 HTTP/1.1 200 773.1µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:23:18.783258 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:23:18.783258 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:23:20.847873 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[0.542ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/23 00:23:20.847873 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 00:23:20 CST] "GET /api/admin/sys/megetlist?_t=1650644600827 HTTP/1.1 200 542.4µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 00:23:20.847873 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 00:23:20.847873 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 00:28:08.744658 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 00:33:08.748219 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 00:38:08.739586 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 00:43:08.742644 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 00:48:08.750418 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 00:53:08.745753 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 00:58:08.740605 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 01:03:08.741416 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 01:08:08.749914 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 01:13:08.750859 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 01:18:08.745590 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 01:23:08.749730 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 01:28:08.745532 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 01:33:08.748650 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 01:38:08.750172 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 01:43:08.741684 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 01:48:08.752667 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 01:53:08.751582 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 01:58:08.752583 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 02:03:08.741638 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 02:08:08.750633 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 02:13:08.738290 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 02:18:08.751056 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 02:23:08.744650 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 02:28:08.740063 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 02:33:08.750932 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 02:38:08.742780 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 02:43:08.751786 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 02:48:08.750650 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 02:53:08.750717 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 02:58:08.745815 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 03:03:08.752612 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 03:08:08.749678 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 03:13:08.749721 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 03:18:08.750671 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 03:23:08.742574 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 03:28:08.746715 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 03:33:08.752252 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 03:38:08.752025 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 03:43:08.751750 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 03:48:08.742431 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 03:53:08.744758 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 03:58:08.747511 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 04:03:08.743004 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 04:08:08.741871 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 04:13:08.748401 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 04:18:08.753106 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 04:23:08.748872 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 04:28:08.753696 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 04:33:08.739464 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 04:38:08.744465 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 04:43:08.746474 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 04:48:08.740771 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 04:53:08.743732 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 04:58:08.746858 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 05:03:08.751830 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 05:08:08.750379 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 05:13:08.750426 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 05:18:08.750683 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 05:23:08.739506 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 05:28:08.752477 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 05:33:08.745577 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 05:38:08.751564 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 05:43:08.743859 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 05:48:08.753141 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 05:53:08.744653 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 05:58:08.739334 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 06:03:08.742150 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 06:08:08.751598 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 06:13:08.747594 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 06:18:08.749054 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 06:23:08.746472 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 06:28:08.741652 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 06:33:08.748051 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 06:38:08.744562 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 06:43:08.744710 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 06:48:08.738823 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 06:53:08.750075 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 06:58:08.750483 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 07:03:08.750632 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 07:08:08.746509 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 07:13:08.752451 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 07:18:08.750648 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 07:23:08.742187 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 07:28:08.749744 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 07:33:08.748751 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 07:38:08.742688 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 07:43:08.747961 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 07:48:08.742501 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 07:53:08.751348 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 07:58:08.750511 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 08:03:08.752771 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 08:08:08.743830 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 08:13:08.738490 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 08:18:08.752397 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 08:23:08.749913 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 08:28:08.752724 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 08:33:08.750586 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 08:38:08.740980 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 08:43:08.743558 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 08:48:08.751140 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 08:53:08.749433 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 08:58:08.748687 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 09:03:08.748462 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 09:08:08.741061 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 09:13:08.745300 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 09:18:08.752672 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 09:23:08.752824 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 09:28:08.747393 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 09:33:08.747752 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 09:38:08.748594 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 09:43:08.741193 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 09:48:08.744660 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 09:53:08.741601 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 09:58:08.751617 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 10:03:08.752719 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 10:08:08.743694 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 10:13:08.740580 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 10:18:08.749211 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 10:23:08.742731 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 10:28:08.748632 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 10:33:08.742715 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 10:38:08.743591 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 10:43:08.744714 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 10:48:08.749606 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 10:53:08.750131 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 10:58:08.745777 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 11:03:08.739054 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 11:08:08.746733 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 11:13:08.748878 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 11:18:08.742608 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 11:23:08.739533 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 11:28:08.750469 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 11:33:08.747704 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 11:38:08.749623 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 11:43:08.743286 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 11:48:08.748275 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 11:53:08.747686 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 11:58:08.751581 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 12:03:08.741744 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 12:08:08.744781 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 12:13:08.751853 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 12:18:08.749612 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 12:23:08.750611 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 12:28:08.738702 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 12:33:08.750487 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 12:38:08.742610 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 12:43:08.749563 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 12:48:08.740635 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 12:53:08.753379 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 12:58:08.739587 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 13:03:08.745805 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 13:08:08.744081 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 13:13:08.740414 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 13:18:08.745611 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 13:23:08.745842 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 13:28:08.740642 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 13:33:08.752753 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 13:38:08.752798 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 13:43:08.750470 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 13:48:08.743967 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 13:53:08.748584 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 13:58:08.753508 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 14:03:08.746764 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 14:08:08.752450 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 14:13:08.743766 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 14:18:08.747885 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 14:23:08.752551 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 14:28:08.749536 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 14:33:08.743206 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 14:38:08.750275 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 14:43:08.749852 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 14:48:08.745515 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 14:53:08.750351 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 14:58:08.751621 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 15:03:08.740498 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 15:08:08.751908 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 15:13:08.744495 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 15:18:08.741322 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 15:23:08.746345 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 15:28:08.743406 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 15:33:08.749371 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 15:38:08.742970 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 15:43:08.752394 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 15:48:08.742830 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 15:53:08.745605 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 15:58:08.749343 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 16:03:08.745862 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 16:08:08.750621 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 16:13:08.747454 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 16:18:08.746573 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 16:23:08.744563 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 16:28:08.739698 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 16:33:08.751402 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 16:38:08.748544 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 16:43:08.749458 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 16:48:08.748413 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 16:53:08.748630 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 16:58:08.746518 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 17:03:08.752355 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 17:08:08.753538 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 17:13:08.751337 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 17:18:08.743468 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 17:23:08.747567 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 17:28:08.750774 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 17:33:08.740236 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 17:38:08.749878 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 17:43:08.743934 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 17:48:08.752842 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 17:53:08.751555 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 17:58:08.748162 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 18:03:08.752184 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 18:08:08.739964 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 18:13:08.747691 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 18:18:08.750301 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 18:23:08.751472 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 18:28:08.751599 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 18:33:08.751438 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 18:38:08.742468 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 18:43:08.752483 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 18:48:08.749438 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 18:53:08.738678 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 18:58:08.746025 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 19:03:08.746245 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 19:08:08.742474 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 19:13:08.740369 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 19:18:08.741020 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 19:23:08.741821 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 19:28:08.751309 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 19:33:08.747417 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 22:30:20.456768 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 22:30:33.489961 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 22:30:33 CST] "GET /api/admin/getUserInfo?_t=1650724233477 HTTP/1.1 200 996.8µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 22:30:33.489961 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 22:30:33.489961 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 22:30:33.513671 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 22:30:33 CST] "GET /api/admin/getPermCode?_t=1650724233506 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 22:30:33.513671 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 22:30:33.513671 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 22:30:33.523613 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[8.810ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/23 22:30:33.524020 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 22:30:33 CST] "GET /api/admin/getMenuList?_t=1650724233506 HTTP/1.1 200 10.8551ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 22:30:33.524020 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 22:30:33.524020 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 22:30:34.562687 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysDepart.go:45
+[0.504ms] [rows:7] SELECT * FROM `sys_depart` ORDER BY sort_no asc
+[TRACE] 2022/04/23 22:30:34.563634 [nelog.go:78]127.0.0.1 - [Sat, 23 Apr 2022 22:30:34 CST] "GET /api/admin/sys/deptgetlist?_t=1650724234429 HTTP/1.1 200 1.452ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/23 22:30:34.563634 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/23 22:30:34.563634 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/23 22:33:08.739129 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 22:38:08.752283 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 22:43:08.751388 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 22:48:08.751501 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 22:53:08.750544 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/23 22:58:08.747651 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/24 15:48:28.417229 ================ LOG SEQ SIZE:0 ==================

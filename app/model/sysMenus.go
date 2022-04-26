@@ -6,8 +6,8 @@ import (
 )
 
 type SysMenus struct {
-	ID         int64      `gorm:"primary_key" json:"id"` //
-	Pid        int64      `json:"pid"`                   //
+	ID         string     `gorm:"primary_key" json:"id"` //
+	Pid        string     `json:"pid"`                   //
 	Name       string     `json:"name"`                  //
 	Component  string     `json:"component"`             //组件地址
 	Icon       string     `json:"icon"`                  //图片
@@ -27,6 +27,7 @@ type SysMenus struct {
 
 //添加菜单
 func SysMenusAdd(data SysMenus) error {
+	data.ID = GetUUID()
 	err := db.Db.Create(&data).Error
 	return err
 }
@@ -46,12 +47,12 @@ func SysMenusGetList(where string, v ...interface{}) []SysMenus {
 		return items
 	}
 	var list []SysMenus
-	list = SysMenusDigui(items, 0, list)
+	list = SysMenusDigui(items, "", list)
 	return list
 }
 
 //digui
-func SysMenusDigui(items []SysMenus, pid int64, list []SysMenus) []SysMenus {
+func SysMenusDigui(items []SysMenus, pid string, list []SysMenus) []SysMenus {
 	var item []SysMenus
 	for _, v := range items {
 		if v.Pid == pid {
@@ -67,7 +68,7 @@ func SysMenusDigui(items []SysMenus, pid int64, list []SysMenus) []SysMenus {
 
 //删除列表
 func SysMenusDel(data SysMenus) error {
-	err := db.Db.Table("sys_menus").Where("id = ? or pid = ?", data.ID, data.ID).Delete(&data).Error
+	err := db.Db.Table("sys_menus").Where("id = ? or pid = ?", data.ID, data.ID).Delete(&SysMenus{}).Error
 	return err
 }
 

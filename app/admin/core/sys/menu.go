@@ -9,8 +9,8 @@ import (
 )
 
 type SysMenus struct {
-	ID         int64  `gorm:"primary_key" json:"id" form:"id"` //
-	Pid        int64  `json:"pid"`                             //
+	ID         string `gorm:"primary_key" json:"id" form:"id"` //
+	Pid        string `json:"pid"`                             //
 	Name       string `json:"name" form:"name"`                //
 	Component  string `json:"component"`                       //组件地址
 	Icon       string `json:"icon"`                            //图片
@@ -62,7 +62,7 @@ func (a *SysMenus) GetList() []model.SysMenus {
 
 //更新数据
 func (a *SysMenus) Edit() error {
-	if a.ID == 0 {
+	if a.ID == "" {
 		return errors.New("缺少参数ID")
 	}
 	var data model.SysMenus
@@ -75,7 +75,7 @@ func (a *SysMenus) Edit() error {
 
 //删除数据
 func (a *SysMenus) Del() error {
-	if a.ID == 0 {
+	if a.ID == "" {
 		return errors.New("缺少参数ID")
 	}
 	var data model.SysMenus
@@ -96,8 +96,8 @@ type Mate struct {
 }
 
 type MenuItem struct {
-	Id        int64      `json:"id"`
-	Pid       int64      `json:"pid"`
+	Id        string     `json:"id"`
+	Pid       string     `json:"pid"`
 	Path      string     `json:"path"`
 	Name      string     `json:"name"`
 	Component string     `json:"component"`
@@ -154,7 +154,7 @@ func GetMenuList() []MenuItem {
 	}
 	var bitems []MenuItem
 	//递归
-	bitems = menuDigui(items, 0, bitems)
+	bitems = menuDigui(items, "", bitems)
 	// for i:=0;i<len(bitems);i++{
 	// 	if len(bitems[i].Children) >0{
 	// 		bitems[i].Redirect = "/"+
@@ -163,7 +163,7 @@ func GetMenuList() []MenuItem {
 	return bitems
 }
 
-func menuDigui(items []MenuItem, pid int64, list []MenuItem) []MenuItem {
+func menuDigui(items []MenuItem, pid string, list []MenuItem) []MenuItem {
 	var item []MenuItem
 	for _, v := range items {
 		if v.Pid == pid {

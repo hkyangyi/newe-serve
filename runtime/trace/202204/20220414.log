@@ -2601,3 +2601,1351 @@
 [TRACE] 2022/04/14 19:24:40.014349 [nelog.go:78]请求body: map[content-type:application/json]
 [TRACE] 2022/04/14 19:24:40.014349 [nelog.go:78]-----------------------------------------------------------------------
 [TRACE] 2022/04/14 19:28:32.586584 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 19:29:31.517186 [nelog.go:78]::1 - [Thu, 14 Apr 2022 19:29:31 CST] "OPTIONS /api/admin/sys/megetlist?name=&_t=1649935771482 HTTP/1.1 200 997.7µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 19:29:31.517186 [nelog.go:78]请求body: map[content-type:application/json]
+[TRACE] 2022/04/14 19:29:31.517186 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 19:29:31.522009 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[0.000ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 19:29:31.522009 [nelog.go:78]::1 - [Thu, 14 Apr 2022 19:29:31 CST] "GET /api/admin/sys/megetlist?name=&_t=1649935771482 HTTP/1.1 200 1.8289ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 19:29:31.522009 [nelog.go:78]请求body: map[content-type:application/json]
+[TRACE] 2022/04/14 19:29:31.522009 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 19:29:40.498426 [nelog.go:78]::1 - [Thu, 14 Apr 2022 19:29:40 CST] "OPTIONS /api/admin/sys/megetlist?name=%E8%8F%9C%E5%8D%95%E7%AE%A1%E7%90%86&_t=1649935780456 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 19:29:40.498932 [nelog.go:78]请求body: map[content-type:application/json]
+[TRACE] 2022/04/14 19:29:40.498932 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 19:29:40.501261 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[0.669ms] [rows:1] SELECT * FROM `sys_menus` WHERE name like '%菜单管理%' ORDER BY sort_no asc
+[TRACE] 2022/04/14 19:29:40.501261 [nelog.go:78]::1 - [Thu, 14 Apr 2022 19:29:40 CST] "GET /api/admin/sys/megetlist?name=%E8%8F%9C%E5%8D%95%E7%AE%A1%E7%90%86&_t=1649935780456 HTTP/1.1 200 1.2749ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 19:29:40.501261 [nelog.go:78]请求body: map[content-type:application/json]
+[TRACE] 2022/04/14 19:29:40.501261 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 19:29:45.782314 [nelog.go:78]::1 - [Thu, 14 Apr 2022 19:29:45 CST] "OPTIONS /api/admin/sys/megetlist?name=%E7%AE%A1%E7%90%86&_t=1649935785763 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 19:29:45.782774 [nelog.go:78]请求body: map[content-type:application/json]
+[TRACE] 2022/04/14 19:29:45.782774 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 19:29:45.785170 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[0.824ms] [rows:3] SELECT * FROM `sys_menus` WHERE name like '%管理%' ORDER BY sort_no asc
+[TRACE] 2022/04/14 19:29:45.785170 [nelog.go:78]::1 - [Thu, 14 Apr 2022 19:29:45 CST] "GET /api/admin/sys/megetlist?name=%E7%AE%A1%E7%90%86&_t=1649935785763 HTTP/1.1 200 1.335ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 19:29:45.785170 [nelog.go:78]请求body: map[content-type:application/json]
+[TRACE] 2022/04/14 19:29:45.785170 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 19:29:55.595195 [nelog.go:78]::1 - [Thu, 14 Apr 2022 19:29:55 CST] "OPTIONS /api/admin/sys/megetlist?_t=1649935795591 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 19:29:55.595424 [nelog.go:78]请求body: map[content-type:application/json]
+[TRACE] 2022/04/14 19:29:55.595424 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 19:29:55.597790 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[0.000ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 19:29:55.598083 [nelog.go:78]::1 - [Thu, 14 Apr 2022 19:29:55 CST] "GET /api/admin/sys/megetlist?_t=1649935795591 HTTP/1.1 200 1.3075ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 19:29:55.598083 [nelog.go:78]请求body: map[content-type:application/json]
+[TRACE] 2022/04/14 19:29:55.598083 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 19:30:01.692232 [nelog.go:78]::1 - [Thu, 14 Apr 2022 19:30:01 CST] "OPTIONS /api/admin/sys/megetlist?_t=1649935801687 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 19:30:01.692254 [nelog.go:78]请求body: map[content-type:application/json]
+[TRACE] 2022/04/14 19:30:01.692254 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 19:30:01.695369 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[1.002ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 19:30:01.695369 [nelog.go:78]::1 - [Thu, 14 Apr 2022 19:30:01 CST] "GET /api/admin/sys/megetlist?_t=1649935801687 HTTP/1.1 200 1.9994ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 19:30:01.695369 [nelog.go:78]请求body: map[content-type:application/json]
+[TRACE] 2022/04/14 19:30:01.695369 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 19:30:09.132859 [nelog.go:78]::1 - [Thu, 14 Apr 2022 19:30:09 CST] "OPTIONS /api/admin/sys/megetlist?_t=1649935809128 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 19:30:09.133203 [nelog.go:78]请求body: map[content-type:application/json]
+[TRACE] 2022/04/14 19:30:09.133203 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 19:30:09.134882 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[0.630ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 19:30:09.135525 [nelog.go:78]::1 - [Thu, 14 Apr 2022 19:30:09 CST] "GET /api/admin/sys/megetlist?_t=1649935809128 HTTP/1.1 200 1.2054ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 19:30:09.135580 [nelog.go:78]请求body: map[content-type:application/json]
+[TRACE] 2022/04/14 19:30:09.135580 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 19:30:16.426330 [nelog.go:78]::1 - [Thu, 14 Apr 2022 19:30:16 CST] "OPTIONS /api/admin/sys/megetlist?_t=1649935816422 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 19:30:16.427613 [nelog.go:78]请求body: map[content-type:application/json]
+[TRACE] 2022/04/14 19:30:16.427613 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 19:30:16.429479 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[0.000ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 19:30:16.429479 [nelog.go:78]::1 - [Thu, 14 Apr 2022 19:30:16 CST] "GET /api/admin/sys/megetlist?_t=1649935816422 HTTP/1.1 200 517.6µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 19:30:16.429479 [nelog.go:78]请求body: map[content-type:application/json]
+[TRACE] 2022/04/14 19:30:16.429479 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 19:30:32.839944 [nelog.go:78]::1 - [Thu, 14 Apr 2022 19:30:32 CST] "OPTIONS /api/admin/sys/megetlist?_t=1649935832810 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 19:30:32.840390 [nelog.go:78]请求body: map[content-type:application/json]
+[TRACE] 2022/04/14 19:30:32.840390 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 19:30:32.842607 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[1.196ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 19:30:32.842607 [nelog.go:78]::1 - [Thu, 14 Apr 2022 19:30:32 CST] "GET /api/admin/sys/megetlist?_t=1649935832810 HTTP/1.1 200 1.1955ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 19:30:32.842607 [nelog.go:78]请求body: map[content-type:application/json]
+[TRACE] 2022/04/14 19:30:32.842607 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 19:34:22.955245 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 19:39:22.961824 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 19:44:22.961629 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 19:49:22.966095 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 19:54:22.963412 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 19:59:22.968690 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 20:04:22.968748 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 20:09:22.967224 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 20:14:22.964146 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 20:17:23.944134 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:17:23 CST] "GET /api/admin/getUserInfo?_t=1649938643936 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:17:23.944134 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:17:23.944134 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:17:24.018095 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:17:24 CST] "GET /api/admin/getPermCode?_t=1649938644009 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:17:24.018095 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:17:24.018095 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:17:24.019797 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[2.213ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 20:17:24.019797 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:17:24 CST] "GET /api/admin/getMenuList?_t=1649938644009 HTTP/1.1 200 2.2133ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:17:24.019797 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:17:24.019797 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:17:26.532915 [nelog.go:78]::1 - [Thu, 14 Apr 2022 20:17:26 CST] "OPTIONS /api/admin/sys/megetlist?_t=1649938646493 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:17:26.532915 [nelog.go:78]请求body: map[content-type:application/json]
+[TRACE] 2022/04/14 20:17:26.532915 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:17:26.535939 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[0.000ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 20:17:26.535939 [nelog.go:78]::1 - [Thu, 14 Apr 2022 20:17:26 CST] "GET /api/admin/sys/megetlist?_t=1649938646493 HTTP/1.1 200 986.3µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:17:26.535939 [nelog.go:78]请求body: map[content-type:application/json]
+[TRACE] 2022/04/14 20:17:26.535939 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:19:22.961143 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 20:19:52.330906 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:19:52 CST] "GET /api/admin/getUserInfo?_t=1649938792324 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:19:52.330906 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:19:52.330906 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:19:52.383903 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:19:52 CST] "GET /api/admin/getPermCode?_t=1649938792377 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:19:52.383903 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:19:52.384410 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:19:52.384423 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.520ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 20:19:52.384970 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:19:52 CST] "GET /api/admin/getMenuList?_t=1649938792378 HTTP/1.1 200 1.0241ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:19:52.384970 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:19:52.384970 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:19:53.521220 [nelog.go:78]::1 - [Thu, 14 Apr 2022 20:19:53 CST] "OPTIONS /api/admin/sys/megetlist?_t=1649938793477 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:19:53.521811 [nelog.go:78]请求body: map[content-type:application/json]
+[TRACE] 2022/04/14 20:19:53.521811 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:19:53.524021 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[0.000ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 20:19:53.524021 [nelog.go:78]::1 - [Thu, 14 Apr 2022 20:19:53 CST] "GET /api/admin/sys/megetlist?_t=1649938793477 HTTP/1.1 200 1.1371ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:19:53.524021 [nelog.go:78]请求body: map[content-type:application/json]
+[TRACE] 2022/04/14 20:19:53.524021 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:20:14.320606 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:20:14 CST] "GET /api/admin/getUserInfo?_t=1649938814312 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:20:14.320606 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:20:14.320606 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:20:14.442524 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:20:14 CST] "GET /api/admin/getPermCode?_t=1649938814429 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:20:14.442524 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:20:14.442524 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:20:14.445205 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[2.681ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 20:20:14.445730 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:20:14 CST] "GET /api/admin/getMenuList?_t=1649938814429 HTTP/1.1 200 3.2055ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:20:14.445730 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:20:14.445730 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:20:15.526675 [nelog.go:78]::1 - [Thu, 14 Apr 2022 20:20:15 CST] "OPTIONS /api/admin/sys/megetlist?_t=1649938815477 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:20:15.526675 [nelog.go:78]请求body: map[content-type:application/json]
+[TRACE] 2022/04/14 20:20:15.526675 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:20:15.529270 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[1.040ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 20:20:15.529270 [nelog.go:78]::1 - [Thu, 14 Apr 2022 20:20:15 CST] "GET /api/admin/sys/megetlist?_t=1649938815477 HTTP/1.1 200 1.572ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:20:15.529270 [nelog.go:78]请求body: map[content-type:application/json]
+[TRACE] 2022/04/14 20:20:15.529270 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:20:53.495814 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:20:53 CST] "GET /api/admin/getUserInfo?_t=1649938853490 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:20:53.495814 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:20:53.495814 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:20:53.529666 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:20:53 CST] "GET /api/admin/getPermCode?_t=1649938853524 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:20:53.529666 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:20:53.529666 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:20:53.534731 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.507ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 20:20:53.535050 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:20:53 CST] "GET /api/admin/getMenuList?_t=1649938853524 HTTP/1.1 200 825.2µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:20:53.535050 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:20:53.535050 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:20:54.506095 [nelog.go:78]::1 - [Thu, 14 Apr 2022 20:20:54 CST] "OPTIONS /api/admin/sys/megetlist?_t=1649938854475 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:20:54.506095 [nelog.go:78]请求body: map[content-type:application/json]
+[TRACE] 2022/04/14 20:20:54.506095 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:20:54.508904 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[0.000ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 20:20:54.508904 [nelog.go:78]::1 - [Thu, 14 Apr 2022 20:20:54 CST] "GET /api/admin/sys/megetlist?_t=1649938854475 HTTP/1.1 200 1.0197ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:20:54.508904 [nelog.go:78]请求body: map[content-type:application/json]
+[TRACE] 2022/04/14 20:20:54.508904 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:20:58.327994 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:20:58 CST] "GET /api/admin/getUserInfo?_t=1649938858322 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:20:58.327994 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:20:58.327994 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:20:58.390795 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:20:58 CST] "GET /api/admin/getPermCode?_t=1649938858386 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:20:58.390795 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:20:58.390795 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:20:58.391313 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.518ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 20:20:58.391313 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:20:58 CST] "GET /api/admin/getMenuList?_t=1649938858386 HTTP/1.1 200 517.9µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:20:58.391838 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:20:58.391838 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:20:59.499648 [nelog.go:78]::1 - [Thu, 14 Apr 2022 20:20:59 CST] "OPTIONS /api/admin/sys/megetlist?_t=1649938859471 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:20:59.499648 [nelog.go:78]请求body: map[content-type:application/json]
+[TRACE] 2022/04/14 20:20:59.499648 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:20:59.501944 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[0.749ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 20:20:59.501944 [nelog.go:78]::1 - [Thu, 14 Apr 2022 20:20:59 CST] "GET /api/admin/sys/megetlist?_t=1649938859471 HTTP/1.1 200 1.2688ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:20:59.501944 [nelog.go:78]请求body: map[content-type:application/json]
+[TRACE] 2022/04/14 20:20:59.501944 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:22:20.968998 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:22:20 CST] "GET /api/admin/getUserInfo?_t=1649938940958 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:22:20.968998 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:22:20.968998 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:22:20.986929 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:22:20 CST] "GET /api/admin/getPermCode?_t=1649938940977 HTTP/1.1 200 505.2µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:22:20.986929 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:22:20.986929 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:22:20.988117 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.583ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 20:22:20.988117 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:22:20 CST] "GET /api/admin/getMenuList?_t=1649938940978 HTTP/1.1 200 583.4µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:22:20.988117 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:22:20.988117 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:22:26.322172 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:22:26 CST] "GET /admin/sys/megetlist?_t=1649938946293 HTTP/1.1 404 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:22:26.322172 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:22:26.322172 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:22:35.660364 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:22:35 CST] "GET /api/admin/getUserInfo?_t=1649938955653 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:22:35.660364 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:22:35.660364 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:22:35.677997 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:22:35 CST] "GET /api/admin/getPermCode?_t=1649938955673 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:22:35.677997 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:22:35.677997 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:22:35.678638 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.641ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 20:22:35.678638 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:22:35 CST] "GET /api/admin/getMenuList?_t=1649938955673 HTTP/1.1 200 641.2µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:22:35.678638 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:22:35.678638 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:22:36.381269 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:22:36 CST] "GET /admin/sys/megetlist?_t=1649938956329 HTTP/1.1 404 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:22:36.381269 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:22:36.381269 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:24:22.965650 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 20:28:52.356845 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:28:52 CST] "GET /api/admin/getUserInfo?_t=1649939332350 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:28:52.356845 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:28:52.356845 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:28:52.389328 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:28:52 CST] "GET /api/admin/getPermCode?_t=1649939332382 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:28:52.389328 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:28:52.389328 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:28:52.390946 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.575ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 20:28:52.390946 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:28:52 CST] "GET /api/admin/getMenuList?_t=1649939332382 HTTP/1.1 200 1.0973ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:28:52.390946 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:28:52.390946 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:28:53.508125 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:28:53 CST] "GET /admin/sys/megetlist?_t=1649939333474 HTTP/1.1 404 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:28:53.508125 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:28:53.508125 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:29:22.964323 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 20:29:23.155735 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:29:23 CST] "GET /api/admin/getUserInfo?_t=1649939363125 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:29:23.155735 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:29:23.155735 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:29:23.264303 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:29:23 CST] "GET /api/admin/getPermCode?_t=1649939363255 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:29:23.264303 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:29:23.264303 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:29:23.293290 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[8.976ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 20:29:23.294288 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:29:23 CST] "GET /api/admin/getMenuList?_t=1649939363255 HTTP/1.1 200 8.9756ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:29:23.294288 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:29:23.294288 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:29:25.522240 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[0.546ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 20:29:25.522240 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:29:25 CST] "GET /api/admin/sys/megetlist?_t=1649939365482 HTTP/1.1 200 546.3µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:29:25.522240 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:29:25.522240 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:29:51.980415 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[0.000ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 20:29:51.981026 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:29:51 CST] "GET /api/admin/sys/megetlist?_t=1649939391933 HTTP/1.1 200 611.3µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:29:51.981026 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:29:51.981026 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:30:02.929559 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[0.000ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 20:30:02.930075 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:30:02 CST] "GET /api/admin/sys/megetlist?_t=1649939402911 HTTP/1.1 200 515.5µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:30:02.930075 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:30:02.930075 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:30:58.550648 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:76
+[1.817ms] [rows:1] UPDATE `sys_menus` SET `pid`=45,`name`='组织结构',`component`='/newesys/system/dept/index',`icon`='ant-design:apartment-outlined',`is_ext`=2,`is_iframe`=2,`keepalive`=1,`show`=1,`type`=2,`sort_no`=2,`route_name`='SystemDepart',`route_path`='depart',`permission`='',`status`=1,`create_time`=1649939458 WHERE `id` = 47
+[TRACE] 2022/04/14 20:30:58.550648 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:30:58 CST] "PUT /api/admin/sys/meedit HTTP/1.1 200 1.8175ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:30:58.550648 [nelog.go:78]请求body: map[content-type:application/json]
+[TRACE] 2022/04/14 20:30:58.550648 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:30:58.633681 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[0.000ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 20:30:58.634193 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:30:58 CST] "GET /api/admin/sys/megetlist?_t=1649939458553 HTTP/1.1 200 511.8µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:30:58.634193 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:30:58.634193 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:31:05.952068 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[0.086ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 20:31:05.952473 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:31:05 CST] "GET /api/admin/sys/megetlist?_t=1649939465911 HTTP/1.1 200 562.3µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:31:05.952473 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:31:05.952473 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:31:09.828558 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[0.063ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 20:31:09.828933 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:31:09 CST] "GET /api/admin/sys/megetlist?_t=1649939469821 HTTP/1.1 200 516.2µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:31:09.828933 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:31:09.828933 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:31:25.101430 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:31:25 CST] "GET /api/admin/getUserInfo?_t=1649939485093 HTTP/1.1 200 591.8µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:31:25.101430 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:31:25.101430 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:31:25.128117 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:31:25 CST] "GET /api/admin/getPermCode?_t=1649939485120 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:31:25.128117 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:31:25.128117 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:31:25.130194 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[2.077ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 20:31:25.131194 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:31:25 CST] "GET /api/admin/getMenuList?_t=1649939485120 HTTP/1.1 200 2.077ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:31:25.131194 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:31:25.131194 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:31:25.918359 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[0.517ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 20:31:25.918359 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:31:25 CST] "GET /api/admin/sys/megetlist?_t=1649939485878 HTTP/1.1 200 517.4µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:31:25.918359 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:31:25.918359 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:33:14.773296 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:33:14 CST] "GET /api/admin/getUserInfo?_t=1649939594767 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:33:14.773296 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:33:14.773296 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:33:14.798128 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:33:14 CST] "GET /api/admin/getPermCode?_t=1649939594792 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:33:14.798128 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:33:14.798128 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:33:14.798735 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.607ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 20:33:14.799246 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:33:14 CST] "GET /api/admin/getMenuList?_t=1649939594793 HTTP/1.1 200 606.9µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:33:14.799252 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:33:14.799252 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:33:16.506348 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[0.509ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 20:33:16.506348 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:33:16 CST] "GET /api/admin/sys/megetlist?_t=1649939596470 HTTP/1.1 200 572µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:33:16.506348 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:33:16.506348 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:34:22.963150 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 20:39:22.964446 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 20:41:58.331459 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:41:58 CST] "GET /api/admin/getUserInfo?_t=1649940118321 HTTP/1.1 200 529.6µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:41:58.331459 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:41:58.331459 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:41:58.349741 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:41:58 CST] "GET /api/admin/getPermCode?_t=1649940118342 HTTP/1.1 200 527.2µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:41:58.349741 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:41:58.349741 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:41:58.349741 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.000ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 20:41:58.350379 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:41:58 CST] "GET /api/admin/getMenuList?_t=1649940118342 HTTP/1.1 200 510µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:41:58.350379 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:41:58.350379 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:41:59.071683 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[0.000ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 20:41:59.071683 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:41:59 CST] "GET /api/admin/sys/megetlist?_t=1649940119030 HTTP/1.1 200 516.3µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:41:59.071683 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:41:59.071683 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:44:22.957625 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 20:46:13.435343 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:46:13 CST] "GET /api/admin/getUserInfo?_t=1649940373427 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:46:13.435343 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:46:13.435343 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:46:13.453961 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:46:13 CST] "GET /api/admin/getPermCode?_t=1649940373447 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:46:13.453961 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:46:13.453961 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:46:13.454481 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.520ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 20:46:13.455027 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:46:13 CST] "GET /api/admin/getMenuList?_t=1649940373448 HTTP/1.1 200 1.0661ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:46:13.455027 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:46:13.455027 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:46:14.903085 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[0.009ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 20:46:14.903635 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:46:14 CST] "GET /api/admin/sys/megetlist?_t=1649940374865 HTTP/1.1 200 1.0622ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:46:14.903635 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:46:14.903635 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:48:29.932172 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:48:29 CST] "GET /api/admin/getUserInfo?_t=1649940509917 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:48:29.932172 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:48:29.932172 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:48:29.962073 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:48:29 CST] "GET /api/admin/getPermCode?_t=1649940509949 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:48:29.962073 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:48:29.962073 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:48:29.965869 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.000ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 20:48:29.965869 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:48:29 CST] "GET /api/admin/getMenuList?_t=1649940509949 HTTP/1.1 200 994.8µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:48:29.965869 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:48:29.965869 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:48:31.782797 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[0.516ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 20:48:31.782797 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:48:31 CST] "GET /api/admin/sys/megetlist?_t=1649940511724 HTTP/1.1 200 515.9µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:48:31.783669 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:48:31.783669 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:49:22.963596 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 20:51:10.790590 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:51:10 CST] "GET /api/admin/getUserInfo?_t=1649940670783 HTTP/1.1 200 968.2µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:51:10.790590 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:51:10.790590 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:51:10.813967 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:51:10 CST] "GET /api/admin/getPermCode?_t=1649940670806 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:51:10.813967 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:51:10.813967 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:51:10.814490 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.523ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 20:51:10.814490 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:51:10 CST] "GET /api/admin/getMenuList?_t=1649940670806 HTTP/1.1 200 523.2µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:51:10.814490 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:51:10.814490 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:51:12.419438 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[0.000ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 20:51:12.419438 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:51:12 CST] "GET /api/admin/sys/megetlist?_t=1649940672382 HTTP/1.1 200 540.9µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:51:12.419438 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:51:12.419438 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:51:38.156520 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:51:38 CST] "GET /api/admin/getUserInfo?_t=1649940698146 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:51:38.156520 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:51:38.156520 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:51:38.181020 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:51:38 CST] "GET /api/admin/getPermCode?_t=1649940698172 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:51:38.181534 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:51:38.181534 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:51:38.181604 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.584ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 20:51:38.181604 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:51:38 CST] "GET /api/admin/getMenuList?_t=1649940698172 HTTP/1.1 200 584.4µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:51:38.181604 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:51:38.181604 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:51:42.113306 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[0.000ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 20:51:42.113847 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 20:51:42 CST] "GET /api/admin/sys/megetlist?_t=1649940702083 HTTP/1.1 200 540.6µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 20:51:42.113847 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 20:51:42.113847 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 20:54:22.962267 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 20:59:22.958634 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 21:04:22.958135 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 21:04:58.625607 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:04:58 CST] "GET /api/admin/getUserInfo?_t=1649941498617 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:04:58.625607 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:04:58.625607 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:04:58.677898 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:04:58 CST] "GET /api/admin/getPermCode?_t=1649941498670 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:04:58.677898 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:04:58.677898 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:04:58.678940 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.527ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 21:04:58.678940 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:04:58 CST] "GET /api/admin/getMenuList?_t=1649941498671 HTTP/1.1 200 539.2µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:04:58.678940 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:04:58.678940 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:06:00.021213 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:06:00 CST] "GET /api/admin/getUserInfo?_t=1649941560014 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:06:00.021213 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:06:00.021213 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:06:00.046348 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:06:00 CST] "GET /api/admin/getPermCode?_t=1649941560036 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:06:00.046348 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:06:00.046348 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:06:00.049242 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[2.894ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 21:06:00.049242 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:06:00 CST] "GET /api/admin/getMenuList?_t=1649941560036 HTTP/1.1 200 2.894ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:06:00.050243 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:06:00.050243 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:07:34.028484 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:07:34 CST] "GET /api/admin/getUserInfo?_t=1649941653997 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:07:34.028484 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:07:34.028484 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:07:34.056100 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:07:34 CST] "GET /api/admin/getPermCode?_t=1649941654048 HTTP/1.1 200 209.1µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:07:34.056100 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:07:34.056100 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:07:34.058610 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[1.988ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 21:07:34.058610 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:07:34 CST] "GET /api/admin/getMenuList?_t=1649941654048 HTTP/1.1 200 1.9883ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:07:34.058610 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:07:34.058610 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:09:22.959672 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 21:10:19.463824 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:10:19 CST] "GET /api/admin/getUserInfo?_t=1649941819454 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:10:19.463824 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:10:19.463824 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:10:19.480108 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:10:19 CST] "GET /api/admin/getPermCode?_t=1649941819475 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:10:19.480625 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:10:19.480625 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:10:19.481136 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.006ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 21:10:19.481136 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:10:19 CST] "GET /api/admin/getMenuList?_t=1649941819475 HTTP/1.1 200 1.0284ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:10:19.481136 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:10:19.481136 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:12:06.807194 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:12:06 CST] "GET /api/admin/getUserInfo?_t=1649941926797 HTTP/1.1 200 805.2µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:12:06.807525 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:12:06.807525 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:12:06.829696 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:12:06 CST] "GET /api/admin/getPermCode?_t=1649941926820 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:12:06.830208 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:12:06.830208 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:12:06.830775 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.570ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 21:12:06.830832 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:12:06 CST] "GET /api/admin/getMenuList?_t=1649941926821 HTTP/1.1 200 569.8µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:12:06.830832 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:12:06.830832 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:13:33.674636 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:13:33 CST] "GET /api/admin/getUserInfo?_t=1649942013666 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:13:33.674636 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:13:33.674636 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:13:33.699212 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:13:33 CST] "GET /api/admin/getPermCode?_t=1649942013694 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:13:33.699212 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:13:33.699212 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:13:33.700269 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.542ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 21:13:33.700786 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:13:33 CST] "GET /api/admin/getMenuList?_t=1649942013694 HTTP/1.1 200 542.3µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:13:33.700786 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:13:33.700786 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:14:22.955894 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 21:16:25.248301 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:16:25 CST] "GET /api/admin/getUserInfo?_t=1649942185238 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:16:25.248301 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:16:25.248301 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:16:25.274859 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:16:25 CST] "GET /api/admin/getPermCode?_t=1649942185266 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:16:25.274859 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:16:25.275371 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:16:25.276321 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[1.462ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 21:16:25.276321 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:16:25 CST] "GET /api/admin/getMenuList?_t=1649942185266 HTTP/1.1 200 1.4623ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:16:25.276321 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:16:25.276321 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:16:46.507671 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:16:46 CST] "GET /api/admin/getUserInfo?_t=1649942206500 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:16:46.508187 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:16:46.508187 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:16:46.528744 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:16:46 CST] "GET /api/admin/getPermCode?_t=1649942206519 HTTP/1.1 200 274µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:16:46.528744 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:16:46.528744 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:16:46.529800 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.505ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 21:16:46.530163 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:16:46 CST] "GET /api/admin/getMenuList?_t=1649942206519 HTTP/1.1 200 868.6µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:16:46.530163 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:16:46.530163 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:17:36.565156 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:17:36 CST] "GET /api/admin/getUserInfo?_t=1649942256558 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:17:36.565156 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:17:36.565156 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:17:36.586120 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:17:36 CST] "GET /api/admin/getPermCode?_t=1649942256579 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:17:36.586120 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:17:36.586120 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:17:36.587189 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.556ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 21:17:36.587701 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:17:36 CST] "GET /api/admin/getMenuList?_t=1649942256579 HTTP/1.1 200 1.5804ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:17:36.587701 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:17:36.587701 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:19:22.956940 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 21:21:37.964304 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:21:37 CST] "GET /api/admin/getUserInfo?_t=1649942497957 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:21:37.964304 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:21:37.964304 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:21:37.981374 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:21:37 CST] "GET /api/admin/getPermCode?_t=1649942497976 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:21:37.981374 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:21:37.981374 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:21:37.981892 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.518ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 21:21:37.981892 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:21:37 CST] "GET /api/admin/getMenuList?_t=1649942497976 HTTP/1.1 200 518.5µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:21:37.981892 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:21:37.981892 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:21:54.819176 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:21:54 CST] "GET /api/admin/getUserInfo?_t=1649942514812 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:21:54.819176 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:21:54.819176 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:21:54.909141 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:21:54 CST] "GET /api/admin/getPermCode?_t=1649942514902 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:21:54.909141 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:21:54.909141 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:21:54.910138 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.997ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 21:21:54.910138 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:21:54 CST] "GET /api/admin/getMenuList?_t=1649942514902 HTTP/1.1 200 997.1µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:21:54.910138 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:21:54.910138 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:22:06.853186 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:22:06 CST] "GET /api/admin/getUserInfo?_t=1649942526847 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:22:06.853186 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:22:06.853186 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:22:06.876197 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:22:06 CST] "GET /api/admin/getPermCode?_t=1649942526867 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:22:06.876197 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:22:06.876197 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:22:06.876707 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.510ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 21:22:06.877212 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:22:06 CST] "GET /api/admin/getMenuList?_t=1649942526867 HTTP/1.1 200 510.1µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:22:06.877212 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:22:06.877212 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:22:26.990687 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:22:26 CST] "GET /api/admin/getUserInfo?_t=1649942546982 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:22:26.990687 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:22:26.990687 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:22:27.008037 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:22:27 CST] "GET /api/admin/getPermCode?_t=1649942547000 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:22:27.008037 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:22:27.008037 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:22:27.008555 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.518ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 21:22:27.008555 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:22:27 CST] "GET /api/admin/getMenuList?_t=1649942547000 HTTP/1.1 200 518.3µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:22:27.008555 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:22:27.008555 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:23:52.797185 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:23:52 CST] "GET /api/admin/getUserInfo?_t=1649942632792 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:23:52.797185 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:23:52.797185 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:23:52.835112 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:23:52 CST] "GET /api/admin/getPermCode?_t=1649942632830 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:23:52.835112 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:23:52.835112 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:23:52.837223 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[1.597ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 21:23:52.837223 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:23:52 CST] "GET /api/admin/getMenuList?_t=1649942632830 HTTP/1.1 200 2.1115ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:23:52.837223 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:23:52.837223 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:24:22.966976 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 21:29:22.969995 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 21:34:22.968676 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 21:36:41.430325 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:36:41 CST] "GET /api/admin/getUserInfo?_t=1649943401423 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:36:41.430325 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:36:41.430325 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:36:41.456202 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:36:41 CST] "GET /api/admin/getPermCode?_t=1649943401447 HTTP/1.1 200 513.9µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:36:41.456716 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:36:41.456716 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:36:41.459552 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[3.343ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 21:36:41.459552 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:36:41 CST] "GET /api/admin/getMenuList?_t=1649943401447 HTTP/1.1 200 3.4378ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:36:41.459552 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:36:41.459552 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:39:22.968420 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 21:44:22.959332 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 21:45:06.031512 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:45:06 CST] "GET /api/admin/getUserInfo?_t=1649943906025 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:45:06.031512 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:45:06.031512 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:45:06.056150 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:45:06 CST] "GET /api/admin/getPermCode?_t=1649943906048 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:45:06.056150 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:45:06.056150 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:45:06.058964 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.505ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 21:45:06.058964 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:45:06 CST] "GET /api/admin/getMenuList?_t=1649943906048 HTTP/1.1 200 2.2923ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:45:06.058964 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:45:06.058964 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:46:07.645448 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:46:07 CST] "GET /api/admin/getUserInfo?_t=1649943967638 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:46:07.645448 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:46:07.645448 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:46:07.661265 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:46:07 CST] "GET /api/admin/getPermCode?_t=1649943967656 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:46:07.661265 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:46:07.661265 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:46:07.661783 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.517ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 21:46:07.661783 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:46:07 CST] "GET /api/admin/getMenuList?_t=1649943967656 HTTP/1.1 200 517.4µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:46:07.661783 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:46:07.661783 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:46:44.816945 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:46:44 CST] "GET /api/admin/getUserInfo?_t=1649944004808 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:46:44.817463 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:46:44.817463 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:46:44.842628 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:46:44 CST] "GET /api/admin/getPermCode?_t=1649944004833 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:46:44.842628 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:46:44.842628 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:46:44.843548 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.415ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 21:46:44.844366 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:46:44 CST] "GET /api/admin/getMenuList?_t=1649944004834 HTTP/1.1 200 1.7382ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:46:44.844366 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:46:44.844366 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:47:04.409925 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:47:04 CST] "GET /api/admin/getUserInfo?_t=1649944024404 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:47:04.409925 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:47:04.409925 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:47:04.427964 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:47:04 CST] "GET /api/admin/getPermCode?_t=1649944024422 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:47:04.427964 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:47:04.427964 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:47:04.428475 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.510ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 21:47:04.428475 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:47:04 CST] "GET /api/admin/getMenuList?_t=1649944024423 HTTP/1.1 200 510.3µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:47:04.428475 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:47:04.428475 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:47:39.296813 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:47:39 CST] "GET /api/admin/getUserInfo?_t=1649944059292 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:47:39.296813 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:47:39.296813 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:47:39.319892 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:47:39 CST] "GET /api/admin/getPermCode?_t=1649944059311 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:47:39.319892 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:47:39.319892 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:47:39.320461 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.569ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 21:47:39.320461 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:47:39 CST] "GET /api/admin/getMenuList?_t=1649944059311 HTTP/1.1 200 568.8µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:47:39.320461 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:47:39.320461 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:48:10.579700 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:48:10 CST] "GET /api/admin/getUserInfo?_t=1649944090571 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:48:10.579700 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:48:10.579700 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:48:10.603637 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:48:10 CST] "GET /api/admin/getPermCode?_t=1649944090593 HTTP/1.1 200 1.0051ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:48:10.604633 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:48:10.604633 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:48:10.606374 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.738ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 21:48:10.606374 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:48:10 CST] "GET /api/admin/getMenuList?_t=1649944090594 HTTP/1.1 200 2.733ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:48:10.606374 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:48:10.606374 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:48:18.787454 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:44
+[0.517ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 21:48:18.787454 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:48:18 CST] "GET /api/admin/sys/megetlist?_t=1649944098741 HTTP/1.1 200 675µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:48:18.787454 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:48:18.787454 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:48:54.057938 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:48:54 CST] "GET /api/admin/getUserInfo?_t=1649944134048 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:48:54.057938 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:48:54.057938 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:48:54.079894 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:48:54 CST] "GET /api/admin/getPermCode?_t=1649944134072 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:48:54.080415 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:48:54.080415 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:48:54.080415 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.000ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 21:48:54.080415 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:48:54 CST] "GET /api/admin/getMenuList?_t=1649944134072 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:48:54.080415 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:48:54.080415 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:49:22.961390 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 21:52:15.668302 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:52:15 CST] "GET /api/admin/getUserInfo?_t=1649944335659 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:52:15.668302 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:52:15.668302 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:52:15.686378 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:52:15 CST] "GET /api/admin/getPermCode?_t=1649944335678 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:52:15.686378 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:52:15.686378 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:52:15.686894 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.516ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 21:52:15.686894 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:52:15 CST] "GET /api/admin/getMenuList?_t=1649944335678 HTTP/1.1 200 516.2µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:52:15.687399 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:52:15.687399 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:53:04.890259 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:53:04 CST] "GET /api/admin/getUserInfo?_t=1649944384877 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:53:04.890259 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:53:04.890259 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:53:04.920223 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:53:04 CST] "GET /api/admin/getPermCode?_t=1649944384909 HTTP/1.1 200 515.6µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:53:04.921217 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:53:04.921217 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:53:04.921217 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.516ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 21:53:04.921217 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:53:04 CST] "GET /api/admin/getMenuList?_t=1649944384909 HTTP/1.1 200 515.6µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:53:04.921217 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:53:04.921217 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:53:48.955077 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:53:48 CST] "GET /api/admin/getUserInfo?_t=1649944428947 HTTP/1.1 200 223µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:53:48.955077 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:53:48.955077 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:53:48.978295 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:53:48 CST] "GET /api/admin/getPermCode?_t=1649944428971 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:53:48.978295 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:53:48.978295 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:53:48.978807 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.512ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 21:53:48.978807 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:53:48 CST] "GET /api/admin/getMenuList?_t=1649944428972 HTTP/1.1 200 511.9µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:53:48.978807 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:53:48.978807 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:54:22.964667 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 21:55:15.231249 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:55:15 CST] "GET /api/admin/getUserInfo?_t=1649944515224 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:55:15.231249 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:55:15.231249 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:55:15.258788 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:55:15 CST] "GET /api/admin/getPermCode?_t=1649944515251 HTTP/1.1 200 524.7µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:55:15.258788 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:55:15.258788 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:55:15.261700 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[1.706ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 21:55:15.261700 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:55:15 CST] "GET /api/admin/getMenuList?_t=1649944515252 HTTP/1.1 200 1.7057ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:55:15.261700 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:55:15.261700 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:56:17.368941 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:56:17 CST] "GET /api/admin/getUserInfo?_t=1649944577361 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:56:17.368941 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:56:17.368941 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:56:17.388021 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:56:17 CST] "GET /api/admin/getPermCode?_t=1649944577379 HTTP/1.1 200 525.1µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:56:17.388021 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:56:17.388021 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:56:17.388538 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.517ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 21:56:17.388538 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:56:17 CST] "GET /api/admin/getMenuList?_t=1649944577379 HTTP/1.1 200 517µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:56:17.388538 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:56:17.388538 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:56:45.046856 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:56:45 CST] "GET /api/admin/getUserInfo?_t=1649944605041 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:56:45.046856 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:56:45.046856 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:56:45.101066 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:56:45 CST] "GET /api/admin/getPermCode?_t=1649944605095 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:56:45.101066 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:56:45.101066 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:56:45.101066 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.000ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 21:56:45.101066 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:56:45 CST] "GET /api/admin/getMenuList?_t=1649944605096 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:56:45.101066 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:56:45.101066 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:56:55.902361 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:56:55 CST] "GET /api/admin/getUserInfo?_t=1649944615893 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:56:55.902361 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:56:55.902361 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:56:55.920935 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:56:55 CST] "GET /api/admin/getPermCode?_t=1649944615912 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:56:55.920935 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:56:55.920935 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:56:55.921476 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.541ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 21:56:55.921987 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:56:55 CST] "GET /api/admin/getMenuList?_t=1649944615912 HTTP/1.1 200 541.4µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:56:55.921987 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:56:55.921987 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:59:22.954964 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 21:59:58.788442 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:59:58 CST] "GET /api/admin/getUserInfo?_t=1649944798779 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:59:58.788442 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:59:58.788442 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:59:58.821520 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:59:58 CST] "GET /api/admin/getPermCode?_t=1649944798812 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:59:58.821520 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:59:58.821520 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 21:59:58.822482 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.961ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 21:59:58.822482 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 21:59:58 CST] "GET /api/admin/getMenuList?_t=1649944798812 HTTP/1.1 200 961.4µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 21:59:58.822482 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 21:59:58.822482 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:00:09.345993 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:00:09 CST] "GET /api/admin/getUserInfo?_t=1649944809338 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:00:09.345993 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:00:09.345993 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:00:09.369692 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:00:09 CST] "GET /api/admin/getPermCode?_t=1649944809360 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:00:09.369692 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:00:09.369692 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:00:09.371311 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.540ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 22:00:09.371311 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:00:09 CST] "GET /api/admin/getMenuList?_t=1649944809360 HTTP/1.1 200 539.7µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:00:09.371311 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:00:09.371311 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:04:22.965204 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 22:05:12.828445 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:05:12 CST] "GET /api/admin/getUserInfo?_t=1649945112821 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:05:12.828445 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:05:12.828445 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:05:12.853870 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:05:12 CST] "GET /api/admin/getPermCode?_t=1649945112842 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:05:12.853870 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:05:12.853870 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:05:12.854489 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.619ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 22:05:12.855010 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:05:12 CST] "GET /api/admin/getMenuList?_t=1649945112842 HTTP/1.1 200 619.2µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:05:12.855010 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:05:12.855010 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:06:14.464627 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:06:14 CST] "GET /api/admin/getUserInfo?_t=1649945174454 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:06:14.465623 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:06:14.465623 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:06:14.486684 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:06:14 CST] "GET /api/admin/getPermCode?_t=1649945174477 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:06:14.486684 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:06:14.486684 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:06:14.487680 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.000ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 22:06:14.487680 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:06:14 CST] "GET /api/admin/getMenuList?_t=1649945174477 HTTP/1.1 200 996.5µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:06:14.487680 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:06:14.487680 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:09:22.956324 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 22:10:12.724319 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:10:12 CST] "GET /api/admin/getUserInfo?_t=1649945412716 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:10:12.724319 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:10:12.724319 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:10:12.744548 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:10:12 CST] "GET /api/admin/getPermCode?_t=1649945412738 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:10:12.745061 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:10:12.745061 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:10:12.749732 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[4.671ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 22:10:12.749732 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:10:12 CST] "GET /api/admin/getMenuList?_t=1649945412738 HTTP/1.1 200 5.1842ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:10:12.749732 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:10:12.749732 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:10:35.002472 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:10:35 CST] "GET /api/admin/getUserInfo?_t=1649945434992 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:10:35.002472 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:10:35.002472 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:10:35.023595 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:10:35 CST] "GET /api/admin/getPermCode?_t=1649945435016 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:10:35.023595 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:10:35.023595 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:10:35.025463 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[1.868ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 22:10:35.025463 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:10:35 CST] "GET /api/admin/getMenuList?_t=1649945435016 HTTP/1.1 200 1.8684ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:10:35.025463 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:10:35.025463 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:11:02.143100 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:11:02 CST] "GET /api/admin/getUserInfo?_t=1649945462134 HTTP/1.1 200 514.1µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:11:02.143100 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:11:02.143100 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:11:02.169632 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:11:02 CST] "GET /api/admin/getPermCode?_t=1649945462159 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:11:02.169632 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:11:02.169632 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:11:02.169632 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.629ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 22:11:02.170683 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:11:02 CST] "GET /api/admin/getMenuList?_t=1649945462159 HTTP/1.1 200 1.6802ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:11:02.170683 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:11:02.170683 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:11:44.918587 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:11:44 CST] "GET /api/admin/getUserInfo?_t=1649945504908 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:11:44.918587 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:11:44.918587 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:11:44.940214 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:11:44 CST] "GET /api/admin/getPermCode?_t=1649945504933 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:11:44.940809 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:11:44.940809 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:11:44.940809 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.594ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 22:11:44.940809 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:11:44 CST] "GET /api/admin/getMenuList?_t=1649945504933 HTTP/1.1 200 594.3µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:11:44.940809 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:11:44.940809 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:14:22.963927 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 22:17:20.272534 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:17:20 CST] "GET /api/admin/getUserInfo?_t=1649945840264 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:17:20.272534 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:17:20.272534 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:17:20.298219 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:17:20 CST] "GET /api/admin/getPermCode?_t=1649945840287 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:17:20.298219 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:17:20.298219 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:17:20.298743 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.524ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 22:17:20.299272 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:17:20 CST] "GET /api/admin/getMenuList?_t=1649945840288 HTTP/1.1 200 1.0531ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:17:20.299272 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:17:20.299272 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:17:21.061407 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:17:21 CST] "GET /system/getDeptList?_t=1649945841044 HTTP/1.1 404 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:17:21.061407 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:17:21.061407 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:19:22.965909 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 22:20:37.016989 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:20:37 CST] "GET /api/admin/getUserInfo?_t=1649946037008 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:20:37.016989 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:20:37.016989 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:20:37.048242 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:20:37 CST] "GET /api/admin/getPermCode?_t=1649946037036 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:20:37.049573 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:20:37.049573 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:20:37.049573 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[1.017ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 22:20:37.049573 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:20:37 CST] "GET /api/admin/getMenuList?_t=1649946037036 HTTP/1.1 200 1.0168ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:20:37.049573 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:20:37.049573 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:20:37.719529 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:20:37 CST] "GET /system/getDeptList?_t=1649946037697 HTTP/1.1 404 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:20:37.719529 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:20:37.719529 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:23:13.483081 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:23:13 CST] "GET /api/admin/getUserInfo?_t=1649946193474 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:23:13.483081 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:23:13.483081 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:23:13.549591 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:23:13 CST] "GET /api/admin/getPermCode?_t=1649946193540 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:23:13.550103 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:23:13.550103 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:23:13.553294 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.535ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 22:23:13.553667 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:23:13 CST] "GET /api/admin/getMenuList?_t=1649946193540 HTTP/1.1 200 908.4µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:23:13.553667 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:23:13.553667 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:23:14.466177 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:23:14 CST] "GET /system/getDeptList?_t=1649946194442 HTTP/1.1 404 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:23:14.466177 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:23:14.466177 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:24:22.969629 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 22:26:00.437103 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:26:00 CST] "GET /api/admin/getUserInfo?_t=1649946360425 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:26:00.437103 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:26:00.437103 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:26:00.665611 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:26:00 CST] "GET /api/admin/getPermCode?_t=1649946360455 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:26:00.665611 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:26:00.665611 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:26:00.666638 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.511ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 22:26:00.666638 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:26:00 CST] "GET /api/admin/getMenuList?_t=1649946360456 HTTP/1.1 200 1.027ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:26:00.666638 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:26:00.666638 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:26:01.150824 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:26:01 CST] "GET /system/getDeptList?_t=1649946361125 HTTP/1.1 404 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:26:01.150824 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:26:01.150824 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:26:54.379433 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:26:54 CST] "GET /api/admin/getUserInfo?_t=1649946414372 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:26:54.379433 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:26:54.379433 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:26:54.394103 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:26:54 CST] "GET /api/admin/getPermCode?_t=1649946414389 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:26:54.394103 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:26:54.394103 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:26:54.394624 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.522ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 22:26:54.394624 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:26:54 CST] "GET /api/admin/getMenuList?_t=1649946414389 HTTP/1.1 200 521.8µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:26:54.394624 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:26:54.394624 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:26:54.996244 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:26:54 CST] "GET /system/getDeptList?_t=1649946414977 HTTP/1.1 404 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:26:54.996244 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:26:54.996244 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:28:31.709960 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:28:31 CST] "GET /api/admin/getUserInfo?_t=1649946511698 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:28:31.709960 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:28:31.709960 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:28:31.754717 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:28:31 CST] "GET /api/admin/getPermCode?_t=1649946511742 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:28:31.754717 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:28:31.754717 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:28:31.755328 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.506ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 22:28:31.755328 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:28:31 CST] "GET /api/admin/getMenuList?_t=1649946511743 HTTP/1.1 200 611.2µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:28:31.755328 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:28:31.755328 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:28:32.357954 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:28:32 CST] "GET /system/getDeptList?_t=1649946512331 HTTP/1.1 404 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:28:32.357954 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:28:32.357954 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:28:48.559253 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:28:48 CST] "GET /api/admin/getUserInfo?_t=1649946528553 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:28:48.559332 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:28:48.559332 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:28:48.616052 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:28:48 CST] "GET /api/admin/getPermCode?_t=1649946528608 HTTP/1.1 200 505.9µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:28:48.616052 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:28:48.616052 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:28:48.616566 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.503ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 22:28:48.616566 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:28:48 CST] "GET /api/admin/getMenuList?_t=1649946528608 HTTP/1.1 200 514.5µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:28:48.616566 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:28:48.616566 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:28:48.983421 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:28:48 CST] "GET /system/getDeptList?_t=1649946528962 HTTP/1.1 404 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:28:48.983421 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:28:48.983421 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:29:22.961415 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 22:29:30.779137 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:29:30 CST] "GET /api/admin/getUserInfo?_t=1649946570774 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:29:30.779137 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:29:30.779137 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:29:30.810400 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:29:30 CST] "GET /api/admin/getPermCode?_t=1649946570790 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:29:30.810400 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:29:30.810400 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:29:30.811438 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[1.038ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 22:29:30.811438 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:29:30 CST] "GET /api/admin/getMenuList?_t=1649946570790 HTTP/1.1 200 1.038ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:29:30.812103 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:29:30.812103 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:29:31.312990 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:29:31 CST] "GET /system/getDeptList?_t=1649946571291 HTTP/1.1 404 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:29:31.312990 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:29:31.312990 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:29:39.478160 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:29:39 CST] "GET /api/admin/getUserInfo?_t=1649946579472 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:29:39.478160 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:29:39.478160 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:29:39.505205 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:29:39 CST] "GET /api/admin/getPermCode?_t=1649946579492 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:29:39.505205 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:29:39.505205 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:29:39.510183 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[1.252ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 22:29:39.510183 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:29:39 CST] "GET /api/admin/getMenuList?_t=1649946579492 HTTP/1.1 200 1.7984ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:29:39.510183 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:29:39.510183 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:29:40.021615 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:29:40 CST] "GET /system/getDeptList?_t=1649946580001 HTTP/1.1 404 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:29:40.021615 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:29:40.021615 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:33:17.502920 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:33:17 CST] "GET /system/getDeptList?_t=1649946797491 HTTP/1.1 404 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:33:17.502951 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:33:17.502951 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:34:22.967909 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 22:36:04.746709 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:36:04 CST] "GET /api/admin/getUserInfo?_t=1649946964737 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:36:04.746709 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:36:04.746709 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:36:04.763936 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:36:04 CST] "GET /api/admin/getPermCode?_t=1649946964755 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:36:04.763936 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:36:04.763936 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:36:04.764965 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.516ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 22:36:04.765133 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:36:04 CST] "GET /api/admin/getMenuList?_t=1649946964756 HTTP/1.1 200 1.0293ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:36:04.765133 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:36:04.765133 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:36:05.520933 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:36:05 CST] "GET /system/getDeptList?_t=1649946965504 HTTP/1.1 404 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:36:05.520933 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:36:05.520933 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:36:23.038476 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:36:23 CST] "GET /api/admin/getUserInfo?_t=1649946983032 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:36:23.038476 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:36:23.038476 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:36:23.063519 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:36:23 CST] "GET /api/admin/getPermCode?_t=1649946983052 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:36:23.063519 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:36:23.063519 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:36:23.064813 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.526ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 22:36:23.065326 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:36:23 CST] "GET /api/admin/getMenuList?_t=1649946983052 HTTP/1.1 200 1.0345ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:36:23.065326 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:36:23.065326 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:36:23.803476 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:36:23 CST] "GET /system/getDeptList?_t=1649946983786 HTTP/1.1 404 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:36:23.803476 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:36:23.803476 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:38:02.226449 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:38:02 CST] "GET /system/getDeptList?_t=1649947082212 HTTP/1.1 404 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:38:02.227012 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:38:02.227012 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:39:22.960708 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 22:42:40.885253 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:42:40 CST] "GET /system/getDeptList?_t=1649947360874 HTTP/1.1 404 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:42:40.885253 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:42:40.885253 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:42:52.835562 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:42:52 CST] "GET /system/getDeptList?_t=1649947372821 HTTP/1.1 404 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:42:52.835562 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:42:52.835562 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:42:55.437328 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:42:55 CST] "GET /system/getDeptList?_t=1649947375430 HTTP/1.1 404 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:42:55.437328 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:42:55.437328 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:43:24.086533 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:43:24 CST] "GET /system/getDeptList?_t=1649947404070 HTTP/1.1 404 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:43:24.086533 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:43:24.086533 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:43:29.027054 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:43:29 CST] "GET /system/getDeptList?_t=1649947409011 HTTP/1.1 404 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:43:29.027054 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:43:29.027054 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:43:33.063033 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:43:33 CST] "GET /system/getDeptList?_t=1649947413014 HTTP/1.1 404 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:43:33.063033 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:43:33.063033 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:44:22.958659 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 22:44:56.399984 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:44:56 CST] "GET /system/getDeptList?_t=1649947496385 HTTP/1.1 404 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:44:56.400487 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:44:56.400487 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:47:39.310220 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:47:39 CST] "GET /api/admin/getUserInfo?_t=1649947659297 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:47:39.310220 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:47:39.310220 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:47:39.334530 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:47:39 CST] "GET /api/admin/getPermCode?_t=1649947659327 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:47:39.334530 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:47:39.334530 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:47:39.337744 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[4.640ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 22:47:39.337744 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:47:39 CST] "GET /api/admin/getMenuList?_t=1649947659328 HTTP/1.1 200 4.6397ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:47:39.337744 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:47:39.337744 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:47:40.414132 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:47:40 CST] "GET /system/getDeptList?_t=1649947660390 HTTP/1.1 404 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:47:40.414135 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:47:40.414135 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:47:41.846758 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:47:41 CST] "GET /system/getDeptList?_t=1649947661839 HTTP/1.1 404 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:47:41.846758 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:47:41.846758 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:48:12.893550 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:48:12 CST] "GET /api/admin/getUserInfo?_t=1649947692886 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:48:12.893550 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:48:12.893550 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:48:12.915101 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:48:12 CST] "GET /api/admin/getPermCode?_t=1649947692906 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:48:12.915101 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:48:12.915101 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:48:12.915318 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.217ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 22:48:12.915857 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:48:12 CST] "GET /api/admin/getMenuList?_t=1649947692907 HTTP/1.1 200 755.7µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:48:12.915857 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:48:12.915857 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:48:13.533623 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:48:13 CST] "GET /system/getDeptList?_t=1649947693500 HTTP/1.1 404 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:48:13.533623 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:48:13.533623 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:48:21.928170 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:48:21 CST] "GET /api/admin/getUserInfo?_t=1649947701921 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:48:21.928170 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:48:21.928170 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:48:21.958513 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:48:21 CST] "GET /api/admin/getPermCode?_t=1649947701940 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:48:21.958513 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:48:21.958513 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:48:21.959954 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[1.441ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 22:48:21.959954 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:48:21 CST] "GET /api/admin/getMenuList?_t=1649947701941 HTTP/1.1 200 1.4412ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:48:21.959954 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:48:21.960314 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:48:22.485976 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:48:22 CST] "GET /system/getDeptList?_t=1649947702441 HTTP/1.1 404 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:48:22.485976 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:48:22.485976 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:49:22.970479 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 22:53:41.086733 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:53:41 CST] "GET /api/admin/getUserInfo?_t=1649948021080 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:53:41.086733 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:53:41.086733 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:53:41.176594 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:53:41 CST] "GET /api/admin/getPermCode?_t=1649948021168 HTTP/1.1 200 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:53:41.176594 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:53:41.176594 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:53:41.177592 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.997ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 22:53:41.177592 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:53:41 CST] "GET /api/admin/getMenuList?_t=1649948021168 HTTP/1.1 200 996.6µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:53:41.177592 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:53:41.177592 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:53:41.976669 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:53:41 CST] "GET /system/getDeptList?_t=1649948021944 HTTP/1.1 404 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:53:41.976669 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:53:41.976669 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:53:54.637068 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:53:54 CST] "GET /api/admin/getUserInfo?_t=1649948034631 HTTP/1.1 200 511.2µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:53:54.637068 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:53:54.637068 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:53:54.658687 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:53:54 CST] "GET /api/admin/getPermCode?_t=1649948034650 HTTP/1.1 200 505.3µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:53:54.658687 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:53:54.658687 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:53:54.659245 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:37
+[0.000ms] [rows:6] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/14 22:53:54.659783 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:53:54 CST] "GET /api/admin/getMenuList?_t=1649948034650 HTTP/1.1 200 625.6µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:53:54.659783 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:53:54.659783 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:53:55.066357 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:53:55 CST] "GET /system/getDeptList?_t=1649948035032 HTTP/1.1 404 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:53:55.066357 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:53:55.066357 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:53:57.647302 [nelog.go:78]127.0.0.1 - [Thu, 14 Apr 2022 22:53:57 CST] "GET /system/getDeptList?_t=1649948037639 HTTP/1.1 404 0s "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" "
+
+[TRACE] 2022/04/14 22:53:57.647302 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/14 22:53:57.647302 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/14 22:54:22.965641 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/14 22:59:22.955706 ================ LOG SEQ SIZE:0 ==================
