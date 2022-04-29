@@ -1,6 +1,9 @@
 package model
 
-import "newe-serve/common/db"
+import (
+	"newe-serve/common/db"
+	"time"
+)
 
 type SysDepartRules struct {
 	ID         string `gorm:"primary_key" json:"id"` //
@@ -19,7 +22,7 @@ func (a *SysDepart) GetRules() []SysDepartRules {
 }
 
 func (a *SysDepart) DelRules(ids []string) error {
-	err := db.Db.Table("sys_depart_rules").Where("id IN ?", ids).Delete(&SysDepartRules{}).Error
+	err := db.Db.Table("sys_depart_rules").Where("menu_id IN ?", ids).Delete(&SysDepartRules{}).Error
 	return err
 }
 
@@ -27,13 +30,14 @@ func (a *SysDepart) AddRules(ids []string) error {
 	var items []SysDepartRules
 	for _, v := range ids {
 		item := SysDepartRules{
-			ID:       GetUUID(),
-			OrgCode:  a.Code,
-			DepartId: a.ID,
-			MenuId:   v,
+			ID:         GetUUID(),
+			OrgCode:    a.Code,
+			DepartId:   a.ID,
+			MenuId:     v,
+			CreateTime: time.Now().Unix(),
 		}
 		items = append(items, item)
 	}
-	err := db.Db.Create(items).Error
+	err := db.Db.Create(&items).Error
 	return err
 }

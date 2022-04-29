@@ -39,6 +39,20 @@ func SysMenusList() []SysMenus {
 	return items
 }
 
+//根据部门ID获取菜单
+func SysMenusListGetByDepart(departId string) []SysMenus {
+	var items []SysDepartRules
+	db.Db.Model(&items).Where("depart_id = ?", departId).Find(&items)
+	var meuls []string
+	for _, v := range items {
+		meuls = append(meuls, v.MenuId)
+	}
+
+	var res []SysMenus
+	db.Db.Model(&SysMenus{}).Where("id in ?", meuls).Order("sort_no asc").Find(&res)
+	return res
+}
+
 //获取列表
 func SysMenusGetList(where string, v ...interface{}) []SysMenus {
 	var items []SysMenus

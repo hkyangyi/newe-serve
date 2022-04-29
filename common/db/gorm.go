@@ -66,19 +66,19 @@ func Setup() {
 // 	defer Db.Close()
 // }
 
-// func Verifyform(tablename string, id int64, where map[string]interface{}) bool {
-// 	var count int64
+func VerifyOnly(tablename string, id string, where map[string]interface{}) bool {
+	var count int64
 
-// 	if id > 0 {
-// 		Db.Table(tablename).Where(where).Where("id <> ?", id).Count(&count)
+	if len(id) > 0 {
+		Db.Table(tablename).Where(where).Where("id <> ?", id).Count(&count)
 
-// 	} else {
-// 		Db.Table(tablename).Where(where).Count(&count)
-// 	}
+	} else {
+		Db.Table(tablename).Where(where).Count(&count)
+	}
 
-// 	fmt.Println("条数：i%", count)
-// 	if count > 0 {
-// 		return true
-// 	}
-// 	return false
-// }
+	fmt.Println("条数：i%", count)
+	if count > 0 {
+		return true
+	}
+	return false
+}

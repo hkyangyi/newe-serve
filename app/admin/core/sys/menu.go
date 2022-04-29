@@ -106,8 +106,8 @@ type MenuItem struct {
 	Children  []MenuItem `json:"children"`
 }
 
-func GetMenuList() []MenuItem {
-	menus := model.SysMenusList()
+func GetMenuList(departId string) []MenuItem {
+	menus := model.SysMenusListGetByDepart(departId)
 	var items []MenuItem
 	for _, v := range menus {
 		if v.Type == 3 {

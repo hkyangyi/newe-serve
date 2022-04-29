@@ -3,15 +3,19 @@ package routers
 import (
 	"newe-serve/app/admin/conn/auth"
 	"newe-serve/app/admin/conn/sys"
+	"newe-serve/app/middle"
 
 	"github.com/gin-gonic/gin"
 )
 
 func AdminRouter(r *gin.RouterGroup) {
 	r.POST("login", auth.Login)
+	r.GET("logout", auth.LoginOut)
+	r.Use(middle.AdminAuth())
 	r.GET("getUserInfo", auth.GetUserInfo)
 	r.GET("getPermCode", auth.GetPermCode)
 	r.GET("getMenuList", auth.GetMenuList)
+	r.GET("verifysole", auth.Verifysole)
 	sys := r.Group("sys")
 	NeweSys(sys)
 }
@@ -27,4 +31,11 @@ func NeweSys(r *gin.RouterGroup) {
 	r.PUT("deptedit", sys.DepartEdit)
 	r.DELETE("deptdel", sys.DepartDel)
 	r.GET("deptgetlist", sys.DepartGetList)
+	r.GET("deptgetrules", sys.DepartRulesGet)
+	r.POST("deptrulessave", sys.DepartRulesSave)
+	//账号管理
+	r.POST("memberadd", sys.MemberAdd)
+	r.PUT("memberedit", sys.MemberEdit)
+	r.GET("membergetlist", sys.MemberGetList)
+	r.DELETE("memberdel", sys.MemberDel)
 }

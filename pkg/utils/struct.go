@@ -12,14 +12,21 @@ func StAtoB(a, b, c interface{}) error {
 	amap := Struct2Map(a)
 	bmap := Struct2Map(b)
 	for k1, v1 := range amap {
-		//bmap[k1] = v1
-		for k2, v2 := range bmap {
+		if _, ok := bmap[k1]; ok {
 			typea := reflect.TypeOf(v1)
-			typeb := reflect.TypeOf(v2)
-			if k1 == k2 && typea == typeb {
-				bmap[k2] = v1
+			typeb := reflect.TypeOf(bmap[k1])
+			if typea == typeb {
+				bmap[k1] = v1
 			}
 		}
+		//bmap[k1] = v1
+		// for k2, v2 := range bmap {
+		// 	typea := reflect.TypeOf(v1)
+		// 	typeb := reflect.TypeOf(v2)
+		// 	if k1 == k2 && typea == typeb {
+		// 		bmap[k2] = v1
+		// 	}
+		// }
 	}
 
 	if err := mapstructure.Decode(bmap, c); err != nil {

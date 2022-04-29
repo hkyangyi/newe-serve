@@ -7,16 +7,16 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func DepartAdd(c *gin.Context) {
+func MemberAdd(c *gin.Context) {
 	var (
 		g = app.Gin{C: c}
-		d core.SysDepart
+		d core.SysMember
 	)
 
 	if err := app.BindAndValid(c, &d); err != nil {
 		g.Error(err)
 	}
-	err := d.Add()
+	err := d.Create()
 	if err != nil {
 		g.Error(err)
 		return
@@ -25,16 +25,16 @@ func DepartAdd(c *gin.Context) {
 	return
 }
 
-func DepartEdit(c *gin.Context) {
+func MemberEdit(c *gin.Context) {
 	var (
 		g = app.Gin{C: c}
-		d core.SysDepart
+		d core.SysMember
 	)
 
 	if err := app.BindAndValid(c, &d); err != nil {
 		g.Error(err)
 	}
-	err := d.Edit()
+	err := d.Update()
 	if err != nil {
 		g.Error(err)
 		return
@@ -43,10 +43,10 @@ func DepartEdit(c *gin.Context) {
 	return
 }
 
-func DepartDel(c *gin.Context) {
+func MemberDel(c *gin.Context) {
 	var (
 		g = app.Gin{C: c}
-		d core.SysDepart
+		d core.SysMember
 	)
 
 	if err := app.BindAndValid(c, &d); err != nil {
@@ -61,10 +61,10 @@ func DepartDel(c *gin.Context) {
 	return
 }
 
-func DepartGetList(c *gin.Context) {
+func MemberGetList(c *gin.Context) {
 	var (
 		g = app.Gin{C: c}
-		d core.SysDepart
+		d core.SysMember
 	)
 
 	if err := app.BindAndValid(c, &d); err != nil {
@@ -73,41 +73,5 @@ func DepartGetList(c *gin.Context) {
 	items := d.GetList()
 
 	g.Success(items)
-	return
-}
-
-func DepartRulesGet(c *gin.Context) {
-	var (
-		g = app.Gin{C: c}
-		d core.SysDepart
-	)
-
-	if err := app.BindAndValid(c, &d); err != nil {
-		g.Error(err)
-	}
-	items, err := d.GetRules()
-	if err != nil {
-		g.Error(err)
-		return
-	}
-	g.Success(items)
-	return
-}
-
-func DepartRulesSave(c *gin.Context) {
-	var (
-		g = app.Gin{C: c}
-		d core.SysDepart
-	)
-
-	if err := app.BindAndValid(c, &d); err != nil {
-		g.Error(err)
-	}
-	err := d.SaveRules()
-	if err != nil {
-		g.Error(err)
-		return
-	}
-	g.Success(nil)
 	return
 }

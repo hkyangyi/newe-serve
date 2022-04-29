@@ -20,7 +20,7 @@ type Response struct {
 
 //登陆失败
 func (g *Gin) LoginError(err error) {
-	g.C.JSON(200, Response{
+	g.C.JSON(401, Response{
 		Code:      10000,
 		Message:   err.Error(),
 		Result:    nil,
