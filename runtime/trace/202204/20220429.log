@@ -125,3 +125,145 @@
 [TRACE] 2022/04/29 12:38:47.446913 [nelog.go:78]请求body: map[AdminAuthData:{72bf2cad7f6f4a3f8acd8d4808885293 c1a4ad97b18a404cbbe83a31d1ee02d6  admin  管理员 管理员  13333333333  1 0  1651113987 1651113987 }]
 [TRACE] 2022/04/29 12:38:47.446913 [nelog.go:78]-----------------------------------------------------------------------
 [TRACE] 2022/04/29 12:39:06.400044 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/29 12:39:56.441798 [nelog.go:78]127.0.0.1 - [Fri, 29 Apr 2022 12:39:56 CST] "GET /api/admin/getUserInfo?_t=1651207196430 HTTP/1.1 200 1.1726ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/29 12:39:56.442320 [nelog.go:78]请求body: map[AdminAuthData:{72bf2cad7f6f4a3f8acd8d4808885293 c1a4ad97b18a404cbbe83a31d1ee02d6  admin  管理员 管理员  13333333333  1 0  1651113987 1651113987 }]
+[TRACE] 2022/04/29 12:39:56.442320 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/29 12:39:56.472101 [nelog.go:78]127.0.0.1 - [Fri, 29 Apr 2022 12:39:56 CST] "GET /api/admin/getPermCode?_t=1651207196455 HTTP/1.1 200 2.8757ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/29 12:39:56.472101 [nelog.go:78]请求body: map[AdminAuthData:{72bf2cad7f6f4a3f8acd8d4808885293 c1a4ad97b18a404cbbe83a31d1ee02d6  admin  管理员 管理员  13333333333  1 0  1651113987 1651113987 }]
+[TRACE] 2022/04/29 12:39:56.472101 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/29 12:39:56.473000 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:45
+[1.434ms] [rows:18] SELECT * FROM `sys_depart_rules` WHERE depart_id = 'c1a4ad97b18a404cbbe83a31d1ee02d6'
+[TRACE] 2022/04/29 12:39:56.474454 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:52
+[1.455ms] [rows:18] SELECT * FROM `sys_menus` WHERE id in ('90ce42219a504ba387c10f022dc51c2d','eeac301ece904d6e86f47e3c702aa134','fc6e241275ab4b12b5e1d72835c5bbd7','f4b8fe6baa844cfd890fa37f7092b831','19092509384c483494921ab287b38f09','41afa5e45e7e488c84a0966e89df73cb','226dfde007e44920a2dd18d416f63ac6','05fab54d3b08457393b0abbb05691e01','b27c1551aaa94a6bb64940d6c13f1694','3440cf7efb804fa78fee862f048a588b','yingdaoye','bb259e48d4294881aa0853e5683efc8e','84cb2653afa7499e829f00bc0c8367f7','93db86b5d7c54bf8b27a25710e5e4eff','4bb7482f10724915b40dd4b033937f44','8083ccbd7359433a81e82f7c80f246d1','98f3646ebee84e58b58f06265c2ea95f','3baf203ee0dd45e3accaaae6a6412aa6') ORDER BY sort_no asc
+[TRACE] 2022/04/29 12:39:56.475449 [nelog.go:78]127.0.0.1 - [Fri, 29 Apr 2022 12:39:56 CST] "GET /api/admin/getMenuList?_t=1651207196456 HTTP/1.1 200 6.2336ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/29 12:39:56.475449 [nelog.go:78]请求body: map[AdminAuthData:{72bf2cad7f6f4a3f8acd8d4808885293 c1a4ad97b18a404cbbe83a31d1ee02d6  admin  管理员 管理员  13333333333  1 0  1651113987 1651113987 }]
+[TRACE] 2022/04/29 12:39:56.475449 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/29 12:40:20.144642 [nelog.go:78]127.0.0.1 - [Fri, 29 Apr 2022 12:40:20 CST] "GET /api/admin/getUserInfo?_t=1651207220132 HTTP/1.1 200 3.6906ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/29 12:40:20.146042 [nelog.go:78]请求body: map[AdminAuthData:{72bf2cad7f6f4a3f8acd8d4808885293 c1a4ad97b18a404cbbe83a31d1ee02d6  admin  管理员 管理员  13333333333  1 0  1651113987 1651113987 }]
+[TRACE] 2022/04/29 12:40:20.146042 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/29 12:40:20.170141 [nelog.go:78]127.0.0.1 - [Fri, 29 Apr 2022 12:40:20 CST] "GET /api/admin/getPermCode?_t=1651207220162 HTTP/1.1 200 1.6689ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/29 12:40:20.170141 [nelog.go:78]请求body: map[AdminAuthData:{72bf2cad7f6f4a3f8acd8d4808885293 c1a4ad97b18a404cbbe83a31d1ee02d6  admin  管理员 管理员  13333333333  1 0  1651113987 1651113987 }]
+[TRACE] 2022/04/29 12:40:20.170141 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/29 12:40:20.171697 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:45
+[1.042ms] [rows:18] SELECT * FROM `sys_depart_rules` WHERE depart_id = 'c1a4ad97b18a404cbbe83a31d1ee02d6'
+[TRACE] 2022/04/29 12:40:20.175036 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:52
+[3.339ms] [rows:18] SELECT * FROM `sys_menus` WHERE id in ('90ce42219a504ba387c10f022dc51c2d','eeac301ece904d6e86f47e3c702aa134','fc6e241275ab4b12b5e1d72835c5bbd7','f4b8fe6baa844cfd890fa37f7092b831','19092509384c483494921ab287b38f09','41afa5e45e7e488c84a0966e89df73cb','226dfde007e44920a2dd18d416f63ac6','05fab54d3b08457393b0abbb05691e01','b27c1551aaa94a6bb64940d6c13f1694','3440cf7efb804fa78fee862f048a588b','yingdaoye','bb259e48d4294881aa0853e5683efc8e','84cb2653afa7499e829f00bc0c8367f7','93db86b5d7c54bf8b27a25710e5e4eff','4bb7482f10724915b40dd4b033937f44','8083ccbd7359433a81e82f7c80f246d1','98f3646ebee84e58b58f06265c2ea95f','3baf203ee0dd45e3accaaae6a6412aa6') ORDER BY sort_no asc
+[TRACE] 2022/04/29 12:40:20.175548 [nelog.go:78]127.0.0.1 - [Fri, 29 Apr 2022 12:40:20 CST] "GET /api/admin/getMenuList?_t=1651207220163 HTTP/1.1 200 7.0763ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/29 12:40:20.175548 [nelog.go:78]请求body: map[AdminAuthData:{72bf2cad7f6f4a3f8acd8d4808885293 c1a4ad97b18a404cbbe83a31d1ee02d6  admin  管理员 管理员  13333333333  1 0  1651113987 1651113987 }]
+[TRACE] 2022/04/29 12:40:20.175548 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/29 12:40:38.832795 [nelog.go:78]127.0.0.1 - [Fri, 29 Apr 2022 12:40:38 CST] "GET /api/admin/logout?_t=1651207238824 HTTP/1.1 200 1.6303ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/29 12:40:38.832935 [nelog.go:78]请求body: map[]
+[TRACE] 2022/04/29 12:40:38.832935 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/29 12:40:56.150293 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMember.go:57
+[1.009ms] [rows:1] SELECT * FROM `sys_member` WHERE username = 'admin' ORDER BY `sys_member`.`id` LIMIT 1
+[TRACE] 2022/04/29 12:40:56.150293 [nelog.go:78]127.0.0.1 - [Fri, 29 Apr 2022 12:40:56 CST] "POST /api/admin/login HTTP/1.1 200 3.0008ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/29 12:40:56.151744 [nelog.go:78]请求body: map[content-type:application/json]
+[TRACE] 2022/04/29 12:40:56.151744 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/29 12:40:56.164886 [nelog.go:78]127.0.0.1 - [Fri, 29 Apr 2022 12:40:56 CST] "GET /api/admin/getUserInfo?_t=1651207256154 HTTP/1.1 200 2.335ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/29 12:40:56.164886 [nelog.go:78]请求body: map[AdminAuthData:{72bf2cad7f6f4a3f8acd8d4808885293 c1a4ad97b18a404cbbe83a31d1ee02d6  admin  管理员 管理员  13333333333  1 0  1651113987 1651113987 }]
+[TRACE] 2022/04/29 12:40:56.164886 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/29 12:40:56.181587 [nelog.go:78]127.0.0.1 - [Fri, 29 Apr 2022 12:40:56 CST] "GET /api/admin/getPermCode?_t=1651207256169 HTTP/1.1 200 3.2389ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/29 12:40:56.181587 [nelog.go:78]请求body: map[AdminAuthData:{72bf2cad7f6f4a3f8acd8d4808885293 c1a4ad97b18a404cbbe83a31d1ee02d6  admin  管理员 管理员  13333333333  1 0  1651113987 1651113987 }]
+[TRACE] 2022/04/29 12:40:56.181587 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/29 12:40:56.183423 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:45
+[1.294ms] [rows:18] SELECT * FROM `sys_depart_rules` WHERE depart_id = 'c1a4ad97b18a404cbbe83a31d1ee02d6'
+[TRACE] 2022/04/29 12:40:56.185051 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:52
+[1.665ms] [rows:18] SELECT * FROM `sys_menus` WHERE id in ('90ce42219a504ba387c10f022dc51c2d','eeac301ece904d6e86f47e3c702aa134','fc6e241275ab4b12b5e1d72835c5bbd7','f4b8fe6baa844cfd890fa37f7092b831','19092509384c483494921ab287b38f09','41afa5e45e7e488c84a0966e89df73cb','226dfde007e44920a2dd18d416f63ac6','05fab54d3b08457393b0abbb05691e01','b27c1551aaa94a6bb64940d6c13f1694','3440cf7efb804fa78fee862f048a588b','yingdaoye','bb259e48d4294881aa0853e5683efc8e','84cb2653afa7499e829f00bc0c8367f7','93db86b5d7c54bf8b27a25710e5e4eff','4bb7482f10724915b40dd4b033937f44','8083ccbd7359433a81e82f7c80f246d1','98f3646ebee84e58b58f06265c2ea95f','3baf203ee0dd45e3accaaae6a6412aa6') ORDER BY sort_no asc
+[TRACE] 2022/04/29 12:40:56.185563 [nelog.go:78]127.0.0.1 - [Fri, 29 Apr 2022 12:40:56 CST] "GET /api/admin/getMenuList?_t=1651207256169 HTTP/1.1 200 7.0229ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/29 12:40:56.185563 [nelog.go:78]请求body: map[AdminAuthData:{72bf2cad7f6f4a3f8acd8d4808885293 c1a4ad97b18a404cbbe83a31d1ee02d6  admin  管理员 管理员  13333333333  1 0  1651113987 1651113987 }]
+[TRACE] 2022/04/29 12:40:56.185563 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/29 12:44:16.033626 [nelog.go:78]127.0.0.1 - [Fri, 29 Apr 2022 12:44:16 CST] "GET /api/admin/getUserInfo?_t=1651207456025 HTTP/1.1 200 998.1µs "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/29 12:44:16.034623 [nelog.go:78]请求body: map[AdminAuthData:{72bf2cad7f6f4a3f8acd8d4808885293 c1a4ad97b18a404cbbe83a31d1ee02d6  admin  管理员 管理员  13333333333  1 0  1651113987 1651113987 }]
+[TRACE] 2022/04/29 12:44:16.034623 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/29 12:44:16.059128 [nelog.go:78]127.0.0.1 - [Fri, 29 Apr 2022 12:44:16 CST] "GET /api/admin/getPermCode?_t=1651207456050 HTTP/1.1 200 1.6054ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/29 12:44:16.059128 [nelog.go:78]请求body: map[AdminAuthData:{72bf2cad7f6f4a3f8acd8d4808885293 c1a4ad97b18a404cbbe83a31d1ee02d6  admin  管理员 管理员  13333333333  1 0  1651113987 1651113987 }]
+[TRACE] 2022/04/29 12:44:16.059128 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/29 12:44:16.065250 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:45
+[1.994ms] [rows:18] SELECT * FROM `sys_depart_rules` WHERE depart_id = 'c1a4ad97b18a404cbbe83a31d1ee02d6'
+[TRACE] 2022/04/29 12:44:16.065250 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:52
+[0.000ms] [rows:18] SELECT * FROM `sys_menus` WHERE id in ('90ce42219a504ba387c10f022dc51c2d','eeac301ece904d6e86f47e3c702aa134','fc6e241275ab4b12b5e1d72835c5bbd7','f4b8fe6baa844cfd890fa37f7092b831','19092509384c483494921ab287b38f09','41afa5e45e7e488c84a0966e89df73cb','226dfde007e44920a2dd18d416f63ac6','05fab54d3b08457393b0abbb05691e01','b27c1551aaa94a6bb64940d6c13f1694','3440cf7efb804fa78fee862f048a588b','yingdaoye','bb259e48d4294881aa0853e5683efc8e','84cb2653afa7499e829f00bc0c8367f7','93db86b5d7c54bf8b27a25710e5e4eff','4bb7482f10724915b40dd4b033937f44','8083ccbd7359433a81e82f7c80f246d1','98f3646ebee84e58b58f06265c2ea95f','3baf203ee0dd45e3accaaae6a6412aa6') ORDER BY sort_no asc
+[TRACE] 2022/04/29 12:44:16.066248 [nelog.go:78]127.0.0.1 - [Fri, 29 Apr 2022 12:44:16 CST] "GET /api/admin/getMenuList?_t=1651207456050 HTTP/1.1 200 8.2871ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/29 12:44:16.066248 [nelog.go:78]请求body: map[AdminAuthData:{72bf2cad7f6f4a3f8acd8d4808885293 c1a4ad97b18a404cbbe83a31d1ee02d6  admin  管理员 管理员  13333333333  1 0  1651113987 1651113987 }]
+[TRACE] 2022/04/29 12:44:16.066248 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/29 12:44:24.628413 [nelog.go:78]127.0.0.1 - [Fri, 29 Apr 2022 12:44:24 CST] "GET /api/admin/getUserInfo?_t=1651207464616 HTTP/1.1 200 3.9871ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/29 12:44:24.628413 [nelog.go:78]请求body: map[AdminAuthData:{72bf2cad7f6f4a3f8acd8d4808885293 c1a4ad97b18a404cbbe83a31d1ee02d6  admin  管理员 管理员  13333333333  1 0  1651113987 1651113987 }]
+[TRACE] 2022/04/29 12:44:24.628413 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/29 12:44:24.650359 [nelog.go:78]127.0.0.1 - [Fri, 29 Apr 2022 12:44:24 CST] "GET /api/admin/getPermCode?_t=1651207464639 HTTP/1.1 200 1.679ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/29 12:44:24.650359 [nelog.go:78]请求body: map[AdminAuthData:{72bf2cad7f6f4a3f8acd8d4808885293 c1a4ad97b18a404cbbe83a31d1ee02d6  admin  管理员 管理员  13333333333  1 0  1651113987 1651113987 }]
+[TRACE] 2022/04/29 12:44:24.650359 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/29 12:44:24.652108 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:45
+[1.748ms] [rows:18] SELECT * FROM `sys_depart_rules` WHERE depart_id = 'c1a4ad97b18a404cbbe83a31d1ee02d6'
+[TRACE] 2022/04/29 12:44:24.654013 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:52
+[1.905ms] [rows:18] SELECT * FROM `sys_menus` WHERE id in ('90ce42219a504ba387c10f022dc51c2d','eeac301ece904d6e86f47e3c702aa134','fc6e241275ab4b12b5e1d72835c5bbd7','f4b8fe6baa844cfd890fa37f7092b831','19092509384c483494921ab287b38f09','41afa5e45e7e488c84a0966e89df73cb','226dfde007e44920a2dd18d416f63ac6','05fab54d3b08457393b0abbb05691e01','b27c1551aaa94a6bb64940d6c13f1694','3440cf7efb804fa78fee862f048a588b','yingdaoye','bb259e48d4294881aa0853e5683efc8e','84cb2653afa7499e829f00bc0c8367f7','93db86b5d7c54bf8b27a25710e5e4eff','4bb7482f10724915b40dd4b033937f44','8083ccbd7359433a81e82f7c80f246d1','98f3646ebee84e58b58f06265c2ea95f','3baf203ee0dd45e3accaaae6a6412aa6') ORDER BY sort_no asc
+[TRACE] 2022/04/29 12:44:24.654524 [nelog.go:78]127.0.0.1 - [Fri, 29 Apr 2022 12:44:24 CST] "GET /api/admin/getMenuList?_t=1651207464639 HTTP/1.1 200 5.3325ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/29 12:44:24.654524 [nelog.go:78]请求body: map[AdminAuthData:{72bf2cad7f6f4a3f8acd8d4808885293 c1a4ad97b18a404cbbe83a31d1ee02d6  admin  管理员 管理员  13333333333  1 0  1651113987 1651113987 }]
+[TRACE] 2022/04/29 12:44:24.654524 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/29 12:44:46.605731 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/29 12:45:15.897349 [nelog.go:78]127.0.0.1 - [Fri, 29 Apr 2022 12:45:15 CST] "GET /api/admin/getUserInfo?_t=1651207515887 HTTP/1.1 200 1.8918ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/29 12:45:15.897349 [nelog.go:78]请求body: map[AdminAuthData:{72bf2cad7f6f4a3f8acd8d4808885293 c1a4ad97b18a404cbbe83a31d1ee02d6  admin  管理员 管理员  13333333333  1 0  1651113987 1651113987 }]
+[TRACE] 2022/04/29 12:45:15.897349 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/29 12:45:15.928810 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:45
+[4.146ms] [rows:18] SELECT * FROM `sys_depart_rules` WHERE depart_id = 'c1a4ad97b18a404cbbe83a31d1ee02d6'
+[TRACE] 2022/04/29 12:45:15.928810 [nelog.go:78]127.0.0.1 - [Fri, 29 Apr 2022 12:45:15 CST] "GET /api/admin/getPermCode?_t=1651207515912 HTTP/1.1 200 7.5627ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/29 12:45:15.928810 [nelog.go:78]请求body: map[AdminAuthData:{72bf2cad7f6f4a3f8acd8d4808885293 c1a4ad97b18a404cbbe83a31d1ee02d6  admin  管理员 管理员  13333333333  1 0  1651113987 1651113987 }]
+[TRACE] 2022/04/29 12:45:15.928810 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/29 12:45:15.932398 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:52
+[5.558ms] [rows:18] SELECT * FROM `sys_menus` WHERE id in ('90ce42219a504ba387c10f022dc51c2d','eeac301ece904d6e86f47e3c702aa134','fc6e241275ab4b12b5e1d72835c5bbd7','f4b8fe6baa844cfd890fa37f7092b831','19092509384c483494921ab287b38f09','41afa5e45e7e488c84a0966e89df73cb','226dfde007e44920a2dd18d416f63ac6','05fab54d3b08457393b0abbb05691e01','b27c1551aaa94a6bb64940d6c13f1694','3440cf7efb804fa78fee862f048a588b','yingdaoye','bb259e48d4294881aa0853e5683efc8e','84cb2653afa7499e829f00bc0c8367f7','93db86b5d7c54bf8b27a25710e5e4eff','4bb7482f10724915b40dd4b033937f44','8083ccbd7359433a81e82f7c80f246d1','98f3646ebee84e58b58f06265c2ea95f','3baf203ee0dd45e3accaaae6a6412aa6') ORDER BY sort_no asc
+[TRACE] 2022/04/29 12:45:15.932398 [nelog.go:78]127.0.0.1 - [Fri, 29 Apr 2022 12:45:15 CST] "GET /api/admin/getMenuList?_t=1651207515912 HTTP/1.1 200 12.2087ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/29 12:45:15.933394 [nelog.go:78]请求body: map[AdminAuthData:{72bf2cad7f6f4a3f8acd8d4808885293 c1a4ad97b18a404cbbe83a31d1ee02d6  admin  管理员 管理员  13333333333  1 0  1651113987 1651113987 }]
+[TRACE] 2022/04/29 12:45:15.933394 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/29 12:45:37.021832 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysDepart.go:80
+[0.664ms] [rows:1] SELECT * FROM `sys_depart` ORDER BY sort_no asc
+[TRACE] 2022/04/29 12:45:37.022440 [nelog.go:78]127.0.0.1 - [Fri, 29 Apr 2022 12:45:37 CST] "GET /api/admin/sys/deptgetlist?_t=1651207536966 HTTP/1.1 200 3.166ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/29 12:45:37.022440 [nelog.go:78]请求body: map[AdminAuthData:{72bf2cad7f6f4a3f8acd8d4808885293 c1a4ad97b18a404cbbe83a31d1ee02d6  admin  管理员 管理员  13333333333  1 0  1651113987 1651113987 }]
+[TRACE] 2022/04/29 12:45:37.022440 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/29 12:45:37.084219 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMember.go:43
+[0.520ms] [rows:1] SELECT count(*) FROM `sys_member`
+[TRACE] 2022/04/29 12:45:37.084902 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMember.go:43
+[0.683ms] [rows:2] SELECT * FROM `sys_member` ORDER BY create_time desc LIMIT 10
+[TRACE] 2022/04/29 12:45:37.084902 [nelog.go:78]127.0.0.1 - [Fri, 29 Apr 2022 12:45:37 CST] "GET /api/admin/sys/membergetlist?page=1&pageSize=10&_t=1651207537051 HTTP/1.1 200 2.8144ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/29 12:45:37.084902 [nelog.go:78]请求body: map[AdminAuthData:{72bf2cad7f6f4a3f8acd8d4808885293 c1a4ad97b18a404cbbe83a31d1ee02d6  admin  管理员 管理员  13333333333  1 0  1651113987 1651113987 }]
+[TRACE] 2022/04/29 12:45:37.084902 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/29 12:45:39.369593 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysMenus.go:59
+[0.797ms] [rows:18] SELECT * FROM `sys_menus` ORDER BY sort_no asc
+[TRACE] 2022/04/29 12:45:39.372104 [nelog.go:78]127.0.0.1 - [Fri, 29 Apr 2022 12:45:39 CST] "GET /api/admin/sys/megetlist?_t=1651207539336 HTTP/1.1 200 5.3785ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/29 12:45:39.372104 [nelog.go:78]请求body: map[AdminAuthData:{72bf2cad7f6f4a3f8acd8d4808885293 c1a4ad97b18a404cbbe83a31d1ee02d6  admin  管理员 管理员  13333333333  1 0  1651113987 1651113987 }]
+[TRACE] 2022/04/29 12:45:39.372104 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/29 12:45:40.608167 [gorm.go:24]E:/golang/src/newe-serve/app/model/sysDepart.go:80
+[0.000ms] [rows:1] SELECT * FROM `sys_depart` ORDER BY sort_no asc
+[TRACE] 2022/04/29 12:45:40.609164 [nelog.go:78]127.0.0.1 - [Fri, 29 Apr 2022 12:45:40 CST] "GET /api/admin/sys/deptgetlist?_t=1651207540559 HTTP/1.1 200 1.9947ms "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" "
+
+[TRACE] 2022/04/29 12:45:40.609164 [nelog.go:78]请求body: map[AdminAuthData:{72bf2cad7f6f4a3f8acd8d4808885293 c1a4ad97b18a404cbbe83a31d1ee02d6  admin  管理员 管理员  13333333333  1 0  1651113987 1651113987 }]
+[TRACE] 2022/04/29 12:45:40.609164 [nelog.go:78]-----------------------------------------------------------------------
+[TRACE] 2022/04/29 12:49:46.607307 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/29 12:54:46.604646 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/29 12:59:46.617208 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/29 13:04:46.610029 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/29 13:09:46.615778 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/29 13:14:46.612114 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/29 13:19:46.609241 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/29 13:24:46.607349 ================ LOG SEQ SIZE:0 ==================
+[TRACE] 2022/04/29 13:29:46.607931 ================ LOG SEQ SIZE:0 ==================
